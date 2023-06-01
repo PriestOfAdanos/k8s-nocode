@@ -1,3 +1,4 @@
+[
 {
   "node_affinity": {
     "type": "typing.Union[ForwardRef('NodeAffinity'), typing.Dict[str, typing.Any], NoneType]",
@@ -13,7 +14,7 @@
   },
   "ancestors": null,
   "name": "Affinity"
-}
+},
 {
   "cluster_role_selectors": {
     "type": "typing.Optional[typing.Sequence[typing.Union[ForwardRef('LabelSelector'), typing.Dict[str, typing.Any]]]]",
@@ -21,7 +22,7 @@
   },
   "ancestors": null,
   "name": "AggregationRule"
-}
+},
 {
   "group_priority_minimum": {
     "type": "typing.Union[int, float]",
@@ -53,7 +54,7 @@
   },
   "ancestors": null,
   "name": "ApiServiceSpec"
-}
+},
 {
   "volume_id": {
     "type": "<class 'str'>",
@@ -73,7 +74,7 @@
   },
   "ancestors": null,
   "name": "AwsElasticBlockStoreVolumeSource"
-}
+},
 {
   "disk_name": {
     "type": "<class 'str'>",
@@ -101,7 +102,7 @@
   },
   "ancestors": null,
   "name": "AzureDiskVolumeSource"
-}
+},
 {
   "secret_name": {
     "type": "<class 'str'>",
@@ -121,7 +122,7 @@
   },
   "ancestors": null,
   "name": "AzureFilePersistentVolumeSource"
-}
+},
 {
   "secret_name": {
     "type": "<class 'str'>",
@@ -137,7 +138,7 @@
   },
   "ancestors": null,
   "name": "AzureFileVolumeSource"
-}
+},
 {
   "api_version": {
     "type": "typing.Optional[str]",
@@ -153,7 +154,7 @@
     "optional": true
   },
   "ancestors": null
-}
+},
 {
   "add": {
     "type": "typing.Optional[typing.Sequence[str]]",
@@ -165,7 +166,7 @@
   },
   "ancestors": null,
   "name": "Capabilities"
-}
+},
 {
   "monitors": {
     "type": "typing.Sequence[str]",
@@ -193,7 +194,7 @@
   },
   "ancestors": null,
   "name": "CephFsPersistentVolumeSource"
-}
+},
 {
   "monitors": {
     "type": "typing.Sequence[str]",
@@ -221,7 +222,7 @@
   },
   "ancestors": null,
   "name": "CephFsVolumeSource"
-}
+},
 {
   "request": {
     "type": "<class 'str'>",
@@ -257,7 +258,7 @@
   },
   "ancestors": null,
   "name": "CertificateSigningRequestSpec"
-}
+},
 {
   "volume_id": {
     "type": "<class 'str'>",
@@ -277,7 +278,7 @@
   },
   "ancestors": null,
   "name": "CinderPersistentVolumeSource"
-}
+},
 {
   "volume_id": {
     "type": "<class 'str'>",
@@ -297,7 +298,7 @@
   },
   "ancestors": null,
   "name": "CinderVolumeSource"
-}
+},
 {
   "timeout_seconds": {
     "type": "typing.Union[int, float, NoneType]",
@@ -305,7 +306,7 @@
   },
   "ancestors": null,
   "name": "ClientIpConfig"
-}
+},
 {
   "per_node_host_bits": {
     "type": "typing.Union[int, float]",
@@ -325,7 +326,7 @@
   },
   "ancestors": null,
   "name": "ClusterCidrSpecV1Alpha1"
-}
+},
 {
   "status": {
     "type": "<class 'str'>",
@@ -345,7 +346,7 @@
   },
   "ancestors": null,
   "name": "ComponentCondition"
-}
+},
 {
   "name": "ConfigMapEnvSource",
   "optional": {
@@ -353,7 +354,7 @@
     "optional": true
   },
   "ancestors": null
-}
+},
 {
   "key": {
     "type": "<class 'str'>",
@@ -365,7 +366,7 @@
     "optional": true
   },
   "ancestors": null
-}
+},
 {
   "kubelet_config_key": {
     "type": "<class 'str'>",
@@ -385,7 +386,7 @@
     "optional": true
   },
   "ancestors": null
-}
+},
 {
   "items": {
     "type": "typing.Optional[typing.Sequence[typing.Union[ForwardRef('KeyToPath'), typing.Dict[str, typing.Any]]]]",
@@ -397,7 +398,7 @@
     "optional": true
   },
   "ancestors": null
-}
+},
 {
   "default_mode": {
     "type": "typing.Union[int, float, NoneType]",
@@ -413,7 +414,7 @@
     "optional": true
   },
   "ancestors": null
-}
+},
 {
   "name": "Container",
   "args": {
@@ -501,7 +502,7 @@
     "optional": true
   },
   "ancestors": null
-}
+},
 {
   "container_port": {
     "type": "typing.Union[int, float]",
@@ -521,7 +522,7 @@
     "optional": true
   },
   "ancestors": null
-}
+},
 {
   "container": {
     "type": "<class 'str'>",
@@ -533,7 +534,7 @@
     "optional": false
   },
   "ancestors": null
-}
+},
 {
   "container": {
     "type": "<class 'str'>",
@@ -545,7 +546,7 @@
     "optional": false
   },
   "ancestors": null
-}
+},
 {
   "job_template": {
     "type": "typing.Union[ForwardRef('JobTemplateSpec'), typing.Dict[str, typing.Any]]",
@@ -581,7 +582,7 @@
   },
   "ancestors": null,
   "name": "CronJobSpec"
-}
+},
 {
   "kind": {
     "type": "<class 'str'>",
@@ -593,7 +594,7 @@
     "optional": true
   },
   "ancestors": null
-}
+},
 {
   "kind": {
     "type": "<class 'str'>",
@@ -605,7 +606,7 @@
     "optional": true
   },
   "ancestors": null
-}
+},
 {
   "kind": {
     "type": "<class 'str'>",
@@ -617,7 +618,7 @@
     "optional": true
   },
   "ancestors": null
-}
+},
 {
   "attach_required": {
     "type": "typing.Optional[bool]",
@@ -653,7 +654,7 @@
   },
   "ancestors": null,
   "name": "CsiDriverSpec"
-}
+},
 {
   "name": "CsiNodeDriver",
   "node_id": {
@@ -669,7 +670,7 @@
     "optional": true
   },
   "ancestors": null
-}
+},
 {
   "drivers": {
     "type": "typing.Sequence[typing.Union[cdk8s_plus_25.k8s.CsiNodeDriver, typing.Dict[str, typing.Any]]]",
@@ -677,7 +678,7 @@
   },
   "ancestors": null,
   "name": "CsiNodeSpec"
-}
+},
 {
   "driver": {
     "type": "<class 'str'>",
@@ -721,7 +722,7 @@
   },
   "ancestors": null,
   "name": "CsiPersistentVolumeSource"
-}
+},
 {
   "driver": {
     "type": "<class 'str'>",
@@ -745,7 +746,7 @@
   },
   "ancestors": null,
   "name": "CsiVolumeSource"
-}
+},
 {
   "json_path": {
     "type": "<class 'str'>",
@@ -769,7 +770,7 @@
     "optional": true
   },
   "ancestors": null
-}
+},
 {
   "strategy": {
     "type": "<class 'str'>",
@@ -781,7 +782,7 @@
   },
   "ancestors": null,
   "name": "CustomResourceConversion"
-}
+},
 {
   "kind": {
     "type": "<class 'str'>",
@@ -809,7 +810,7 @@
   },
   "ancestors": null,
   "name": "CustomResourceDefinitionNames"
-}
+},
 {
   "group": {
     "type": "<class 'str'>",
@@ -837,7 +838,7 @@
   },
   "ancestors": null,
   "name": "CustomResourceDefinitionSpec"
-}
+},
 {
   "name": "CustomResourceDefinitionVersion",
   "served": {
@@ -869,7 +870,7 @@
     "optional": true
   },
   "ancestors": null
-}
+},
 {
   "spec_replicas_path": {
     "type": "<class 'str'>",
@@ -885,7 +886,7 @@
   },
   "ancestors": null,
   "name": "CustomResourceSubresourceScale"
-}
+},
 {
   "scale": {
     "type": "typing.Union[cdk8s_plus_25.k8s.CustomResourceSubresourceScale, typing.Dict[str, typing.Any], NoneType]",
@@ -897,7 +898,7 @@
   },
   "ancestors": null,
   "name": "CustomResourceSubresources"
-}
+},
 {
   "open_apiv3_schema": {
     "type": "typing.Union[ForwardRef('JsonSchemaProps'), typing.Dict[str, typing.Any], NoneType]",
@@ -905,7 +906,7 @@
   },
   "ancestors": null,
   "name": "CustomResourceValidation"
-}
+},
 {
   "selector": {
     "type": "typing.Union[ForwardRef('LabelSelector'), typing.Dict[str, typing.Any]]",
@@ -929,7 +930,7 @@
   },
   "ancestors": null,
   "name": "DaemonSetSpec"
-}
+},
 {
   "rolling_update": {
     "type": "typing.Union[ForwardRef('RollingUpdateDaemonSet'), typing.Dict[str, typing.Any], NoneType]",
@@ -941,7 +942,7 @@
   },
   "ancestors": null,
   "name": "DaemonSetUpdateStrategy"
-}
+},
 {
   "api_version": {
     "type": "typing.Optional[str]",
@@ -973,7 +974,7 @@
   },
   "ancestors": null,
   "name": "DeleteOptions"
-}
+},
 {
   "selector": {
     "type": "typing.Union[ForwardRef('LabelSelector'), typing.Dict[str, typing.Any]]",
@@ -1009,7 +1010,7 @@
   },
   "ancestors": null,
   "name": "DeploymentSpec"
-}
+},
 {
   "rolling_update": {
     "type": "typing.Union[ForwardRef('RollingUpdateDeployment'), typing.Dict[str, typing.Any], NoneType]",
@@ -1021,7 +1022,7 @@
   },
   "ancestors": null,
   "name": "DeploymentStrategy"
-}
+},
 {
   "items": {
     "type": "typing.Optional[typing.Sequence[typing.Union[ForwardRef('DownwardApiVolumeFile'), typing.Dict[str, typing.Any]]]]",
@@ -1029,7 +1030,7 @@
   },
   "ancestors": null,
   "name": "DownwardApiProjection"
-}
+},
 {
   "path": {
     "type": "<class 'str'>",
@@ -1049,7 +1050,7 @@
   },
   "ancestors": null,
   "name": "DownwardApiVolumeFile"
-}
+},
 {
   "default_mode": {
     "type": "typing.Union[int, float, NoneType]",
@@ -1061,7 +1062,7 @@
   },
   "ancestors": null,
   "name": "DownwardApiVolumeSource"
-}
+},
 {
   "medium": {
     "type": "typing.Optional[str]",
@@ -1073,7 +1074,7 @@
   },
   "ancestors": null,
   "name": "EmptyDirVolumeSource"
-}
+},
 {
   "addresses": {
     "type": "typing.Sequence[str]",
@@ -1109,7 +1110,7 @@
   },
   "ancestors": null,
   "name": "Endpoint"
-}
+},
 {
   "ip": {
     "type": "<class 'str'>",
@@ -1129,7 +1130,7 @@
   },
   "ancestors": null,
   "name": "EndpointAddress"
-}
+},
 {
   "ready": {
     "type": "typing.Optional[bool]",
@@ -1145,7 +1146,7 @@
   },
   "ancestors": null,
   "name": "EndpointConditions"
-}
+},
 {
   "for_zones": {
     "type": "typing.Optional[typing.Sequence[typing.Union[ForwardRef('ForZone'), typing.Dict[str, typing.Any]]]]",
@@ -1153,7 +1154,7 @@
   },
   "ancestors": null,
   "name": "EndpointHints"
-}
+},
 {
   "port": {
     "type": "typing.Union[int, float]",
@@ -1169,7 +1170,7 @@
     "optional": true
   },
   "ancestors": null
-}
+},
 {
   "addresses": {
     "type": "typing.Optional[typing.Sequence[typing.Union[cdk8s_plus_25.k8s.EndpointAddress, typing.Dict[str, typing.Any]]]]",
@@ -1185,7 +1186,7 @@
   },
   "ancestors": null,
   "name": "EndpointSubset"
-}
+},
 {
   "config_map_ref": {
     "type": "typing.Union[cdk8s_plus_25.k8s.ConfigMapEnvSource, typing.Dict[str, typing.Any], NoneType]",
@@ -1201,7 +1202,7 @@
   },
   "ancestors": null,
   "name": "EnvFromSource"
-}
+},
 {
   "name": "EnvVar",
   "value": {
@@ -1213,7 +1214,7 @@
     "optional": true
   },
   "ancestors": null
-}
+},
 {
   "config_map_key_ref": {
     "type": "typing.Union[cdk8s_plus_25.k8s.ConfigMapKeySelector, typing.Dict[str, typing.Any], NoneType]",
@@ -1233,7 +1234,7 @@
   },
   "ancestors": null,
   "name": "EnvVarSource"
-}
+},
 {
   "name": "EphemeralContainer",
   "args": {
@@ -1325,7 +1326,7 @@
     "optional": true
   },
   "ancestors": null
-}
+},
 {
   "volume_claim_template": {
     "type": "typing.Union[ForwardRef('PersistentVolumeClaimTemplate'), typing.Dict[str, typing.Any], NoneType]",
@@ -1333,7 +1334,7 @@
   },
   "ancestors": null,
   "name": "EphemeralVolumeSource"
-}
+},
 {
   "count": {
     "type": "typing.Union[int, float]",
@@ -1345,7 +1346,7 @@
   },
   "ancestors": null,
   "name": "EventSeries"
-}
+},
 {
   "component": {
     "type": "typing.Optional[str]",
@@ -1357,7 +1358,7 @@
   },
   "ancestors": null,
   "name": "EventSource"
-}
+},
 {
   "command": {
     "type": "typing.Optional[typing.Sequence[str]]",
@@ -1365,7 +1366,7 @@
   },
   "ancestors": null,
   "name": "ExecAction"
-}
+},
 {
   "description": {
     "type": "typing.Optional[str]",
@@ -1377,7 +1378,7 @@
   },
   "ancestors": null,
   "name": "ExternalDocumentation"
-}
+},
 {
   "metric": {
     "type": "typing.Union[ForwardRef('MetricIdentifierV2'), typing.Dict[str, typing.Any]]",
@@ -1389,7 +1390,7 @@
   },
   "ancestors": null,
   "name": "ExternalMetricSourceV2"
-}
+},
 {
   "metric": {
     "type": "typing.Union[ForwardRef('MetricIdentifierV2Beta2'), typing.Dict[str, typing.Any]]",
@@ -1401,7 +1402,7 @@
   },
   "ancestors": null,
   "name": "ExternalMetricSourceV2Beta2"
-}
+},
 {
   "fs_type": {
     "type": "typing.Optional[str]",
@@ -1425,7 +1426,7 @@
   },
   "ancestors": null,
   "name": "FcVolumeSource"
-}
+},
 {
   "driver": {
     "type": "<class 'str'>",
@@ -1449,7 +1450,7 @@
   },
   "ancestors": null,
   "name": "FlexPersistentVolumeSource"
-}
+},
 {
   "driver": {
     "type": "<class 'str'>",
@@ -1473,7 +1474,7 @@
   },
   "ancestors": null,
   "name": "FlexVolumeSource"
-}
+},
 {
   "dataset_name": {
     "type": "typing.Optional[str]",
@@ -1485,7 +1486,7 @@
   },
   "ancestors": null,
   "name": "FlockerVolumeSource"
-}
+},
 {
   "type": {
     "type": "<class 'str'>",
@@ -1493,7 +1494,7 @@
   },
   "ancestors": null,
   "name": "FlowDistinguisherMethodV1Beta1"
-}
+},
 {
   "type": {
     "type": "<class 'str'>",
@@ -1501,7 +1502,7 @@
   },
   "ancestors": null,
   "name": "FlowDistinguisherMethodV1Beta2"
-}
+},
 {
   "priority_level_configuration": {
     "type": "typing.Union[ForwardRef('PriorityLevelConfigurationReferenceV1Beta1'), typing.Dict[str, typing.Any]]",
@@ -1521,7 +1522,7 @@
   },
   "ancestors": null,
   "name": "FlowSchemaSpecV1Beta1"
-}
+},
 {
   "priority_level_configuration": {
     "type": "typing.Union[ForwardRef('PriorityLevelConfigurationReferenceV1Beta2'), typing.Dict[str, typing.Any]]",
@@ -1541,11 +1542,11 @@
   },
   "ancestors": null,
   "name": "FlowSchemaSpecV1Beta2"
-}
+},
 {
   "name": "ForZone",
   "ancestors": null
-}
+},
 {
   "pd_name": {
     "type": "<class 'str'>",
@@ -1565,7 +1566,7 @@
   },
   "ancestors": null,
   "name": "GcePersistentDiskVolumeSource"
-}
+},
 {
   "repository": {
     "type": "<class 'str'>",
@@ -1581,7 +1582,7 @@
   },
   "ancestors": null,
   "name": "GitRepoVolumeSource"
-}
+},
 {
   "endpoints": {
     "type": "<class 'str'>",
@@ -1601,7 +1602,7 @@
   },
   "ancestors": null,
   "name": "GlusterfsPersistentVolumeSource"
-}
+},
 {
   "endpoints": {
     "type": "<class 'str'>",
@@ -1617,15 +1618,15 @@
   },
   "ancestors": null,
   "name": "GlusterfsVolumeSource"
-}
+},
 {
   "name": "GroupSubjectV1Beta1",
   "ancestors": null
-}
+},
 {
   "name": "GroupSubjectV1Beta2",
   "ancestors": null
-}
+},
 {
   "port": {
     "type": "typing.Union[int, float]",
@@ -1637,7 +1638,7 @@
   },
   "ancestors": null,
   "name": "GrpcAction"
-}
+},
 {
   "scale_down": {
     "type": "typing.Union[ForwardRef('HpaScalingRulesV2'), typing.Dict[str, typing.Any], NoneType]",
@@ -1649,7 +1650,7 @@
   },
   "ancestors": null,
   "name": "HorizontalPodAutoscalerBehaviorV2"
-}
+},
 {
   "scale_down": {
     "type": "typing.Union[ForwardRef('HpaScalingRulesV2Beta2'), typing.Dict[str, typing.Any], NoneType]",
@@ -1661,7 +1662,7 @@
   },
   "ancestors": null,
   "name": "HorizontalPodAutoscalerBehaviorV2Beta2"
-}
+},
 {
   "max_replicas": {
     "type": "typing.Union[int, float]",
@@ -1681,7 +1682,7 @@
   },
   "ancestors": null,
   "name": "HorizontalPodAutoscalerSpec"
-}
+},
 {
   "max_replicas": {
     "type": "typing.Union[int, float]",
@@ -1705,7 +1706,7 @@
   },
   "ancestors": null,
   "name": "HorizontalPodAutoscalerSpecV2"
-}
+},
 {
   "max_replicas": {
     "type": "typing.Union[int, float]",
@@ -1729,7 +1730,7 @@
   },
   "ancestors": null,
   "name": "HorizontalPodAutoscalerSpecV2Beta2"
-}
+},
 {
   "hostnames": {
     "type": "typing.Optional[typing.Sequence[str]]",
@@ -1741,7 +1742,7 @@
   },
   "ancestors": null,
   "name": "HostAlias"
-}
+},
 {
   "path": {
     "type": "<class 'str'>",
@@ -1753,7 +1754,7 @@
   },
   "ancestors": null,
   "name": "HostPathVolumeSource"
-}
+},
 {
   "period_seconds": {
     "type": "typing.Union[int, float]",
@@ -1769,7 +1770,7 @@
   },
   "ancestors": null,
   "name": "HpaScalingPolicyV2"
-}
+},
 {
   "period_seconds": {
     "type": "typing.Union[int, float]",
@@ -1785,7 +1786,7 @@
   },
   "ancestors": null,
   "name": "HpaScalingPolicyV2Beta2"
-}
+},
 {
   "policies": {
     "type": "typing.Optional[typing.Sequence[typing.Union[cdk8s_plus_25.k8s.HpaScalingPolicyV2, typing.Dict[str, typing.Any]]]]",
@@ -1801,7 +1802,7 @@
   },
   "ancestors": null,
   "name": "HpaScalingRulesV2"
-}
+},
 {
   "policies": {
     "type": "typing.Optional[typing.Sequence[typing.Union[cdk8s_plus_25.k8s.HpaScalingPolicyV2Beta2, typing.Dict[str, typing.Any]]]]",
@@ -1817,7 +1818,7 @@
   },
   "ancestors": null,
   "name": "HpaScalingRulesV2Beta2"
-}
+},
 {
   "port": {
     "type": "IntOrString",
@@ -1841,7 +1842,7 @@
   },
   "ancestors": null,
   "name": "HttpGetAction"
-}
+},
 {
   "name": "HttpHeader",
   "value": {
@@ -1849,7 +1850,7 @@
     "optional": false
   },
   "ancestors": null
-}
+},
 {
   "backend": {
     "type": "typing.Union[ForwardRef('IngressBackend'), typing.Dict[str, typing.Any]]",
@@ -1865,7 +1866,7 @@
   },
   "ancestors": null,
   "name": "HttpIngressPath"
-}
+},
 {
   "paths": {
     "type": "typing.Sequence[typing.Union[cdk8s_plus_25.k8s.HttpIngressPath, typing.Dict[str, typing.Any]]]",
@@ -1873,7 +1874,7 @@
   },
   "ancestors": null,
   "name": "HttpIngressRuleValue"
-}
+},
 {
   "resource": {
     "type": "typing.Union[ForwardRef('TypedLocalObjectReference'), typing.Dict[str, typing.Any], NoneType]",
@@ -1885,7 +1886,7 @@
   },
   "ancestors": null,
   "name": "IngressBackend"
-}
+},
 {
   "kind": {
     "type": "<class 'str'>",
@@ -1905,7 +1906,7 @@
     "optional": true
   },
   "ancestors": null
-}
+},
 {
   "controller": {
     "type": "typing.Optional[str]",
@@ -1917,7 +1918,7 @@
   },
   "ancestors": null,
   "name": "IngressClassSpec"
-}
+},
 {
   "host": {
     "type": "typing.Optional[str]",
@@ -1929,7 +1930,7 @@
   },
   "ancestors": null,
   "name": "IngressRule"
-}
+},
 {
   "name": "IngressServiceBackend",
   "port": {
@@ -1937,7 +1938,7 @@
     "optional": true
   },
   "ancestors": null
-}
+},
 {
   "default_backend": {
     "type": "typing.Union[cdk8s_plus_25.k8s.IngressBackend, typing.Dict[str, typing.Any], NoneType]",
@@ -1957,7 +1958,7 @@
   },
   "ancestors": null,
   "name": "IngressSpec"
-}
+},
 {
   "hosts": {
     "type": "typing.Optional[typing.Sequence[str]]",
@@ -1969,7 +1970,7 @@
   },
   "ancestors": null,
   "name": "IngressTls"
-}
+},
 {
   "args": {
     "type": "No type annotation",
@@ -1981,7 +1982,7 @@
   },
   "ancestors": null,
   "name": "IntOrString"
-}
+},
 {
   "args": {
     "type": "No type annotation",
@@ -1995,7 +1996,7 @@
     "Enum"
   ],
   "name": "IoK8SApimachineryPkgApisMetaV1DeleteOptionsKind"
-}
+},
 {
   "cidr": {
     "type": "<class 'str'>",
@@ -2007,7 +2008,7 @@
   },
   "ancestors": null,
   "name": "IpBlock"
-}
+},
 {
   "iqn": {
     "type": "<class 'str'>",
@@ -2055,7 +2056,7 @@
   },
   "ancestors": null,
   "name": "IscsiPersistentVolumeSource"
-}
+},
 {
   "iqn": {
     "type": "<class 'str'>",
@@ -2103,7 +2104,7 @@
   },
   "ancestors": null,
   "name": "IscsiVolumeSource"
-}
+},
 {
   "template": {
     "type": "typing.Union[ForwardRef('PodTemplateSpec'), typing.Dict[str, typing.Any]]",
@@ -2151,7 +2152,7 @@
   },
   "ancestors": null,
   "name": "JobSpec"
-}
+},
 {
   "metadata": {
     "type": "typing.Union[ForwardRef('ObjectMeta'), typing.Dict[str, typing.Any], NoneType]",
@@ -2163,7 +2164,7 @@
   },
   "ancestors": null,
   "name": "JobTemplateSpec"
-}
+},
 {
   "additional_items": {
     "type": "typing.Any",
@@ -2343,7 +2344,7 @@
   },
   "ancestors": null,
   "name": "JsonSchemaProps"
-}
+},
 {
   "key": {
     "type": "<class 'str'>",
@@ -2359,7 +2360,7 @@
   },
   "ancestors": null,
   "name": "KeyToPath"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -2382,7 +2383,7 @@
     "Construct"
   ],
   "name": "KubeApiService"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -2405,7 +2406,7 @@
     "Construct"
   ],
   "name": "KubeApiServiceList"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubeApiServiceProps'), typing.Dict[str, typing.Any]]]",
@@ -2417,7 +2418,7 @@
   },
   "ancestors": null,
   "name": "KubeApiServiceListProps"
-}
+},
 {
   "metadata": {
     "type": "typing.Union[ForwardRef('ObjectMeta'), typing.Dict[str, typing.Any], NoneType]",
@@ -2429,7 +2430,7 @@
   },
   "ancestors": null,
   "name": "KubeApiServiceProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -2452,7 +2453,7 @@
     "Construct"
   ],
   "name": "KubeBinding"
-}
+},
 {
   "target": {
     "type": "typing.Union[ForwardRef('ObjectReference'), typing.Dict[str, typing.Any]]",
@@ -2464,7 +2465,7 @@
   },
   "ancestors": null,
   "name": "KubeBindingProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -2487,7 +2488,7 @@
     "Construct"
   ],
   "name": "KubeCertificateSigningRequest"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -2510,7 +2511,7 @@
     "Construct"
   ],
   "name": "KubeCertificateSigningRequestList"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubeCertificateSigningRequestProps'), typing.Dict[str, typing.Any]]]",
@@ -2522,7 +2523,7 @@
   },
   "ancestors": null,
   "name": "KubeCertificateSigningRequestListProps"
-}
+},
 {
   "spec": {
     "type": "typing.Union[cdk8s_plus_25.k8s.CertificateSigningRequestSpec, typing.Dict[str, typing.Any]]",
@@ -2534,7 +2535,7 @@
   },
   "ancestors": null,
   "name": "KubeCertificateSigningRequestProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -2557,7 +2558,7 @@
     "Construct"
   ],
   "name": "KubeClusterCidrListV1Alpha1"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubeClusterCidrv1Alpha1Props'), typing.Dict[str, typing.Any]]]",
@@ -2569,7 +2570,7 @@
   },
   "ancestors": null,
   "name": "KubeClusterCidrListV1Alpha1Props"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -2592,7 +2593,7 @@
     "Construct"
   ],
   "name": "KubeClusterCidrv1Alpha1"
-}
+},
 {
   "metadata": {
     "type": "typing.Union[ForwardRef('ObjectMeta'), typing.Dict[str, typing.Any], NoneType]",
@@ -2604,7 +2605,7 @@
   },
   "ancestors": null,
   "name": "KubeClusterCidrv1Alpha1Props"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -2631,7 +2632,7 @@
     "Construct"
   ],
   "name": "KubeClusterRole"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -2658,7 +2659,7 @@
     "Construct"
   ],
   "name": "KubeClusterRoleBinding"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -2681,7 +2682,7 @@
     "Construct"
   ],
   "name": "KubeClusterRoleBindingList"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubeClusterRoleBindingProps'), typing.Dict[str, typing.Any]]]",
@@ -2693,7 +2694,7 @@
   },
   "ancestors": null,
   "name": "KubeClusterRoleBindingListProps"
-}
+},
 {
   "role_ref": {
     "type": "typing.Union[ForwardRef('RoleRef'), typing.Dict[str, typing.Any]]",
@@ -2709,7 +2710,7 @@
   },
   "ancestors": null,
   "name": "KubeClusterRoleBindingProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -2732,7 +2733,7 @@
     "Construct"
   ],
   "name": "KubeClusterRoleList"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubeClusterRoleProps'), typing.Dict[str, typing.Any]]]",
@@ -2744,7 +2745,7 @@
   },
   "ancestors": null,
   "name": "KubeClusterRoleListProps"
-}
+},
 {
   "aggregation_rule": {
     "type": "typing.Union[cdk8s_plus_25.k8s.AggregationRule, typing.Dict[str, typing.Any], NoneType]",
@@ -2760,7 +2761,7 @@
   },
   "ancestors": null,
   "name": "KubeClusterRoleProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -2783,7 +2784,7 @@
     "Construct"
   ],
   "name": "KubeComponentStatus"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -2806,7 +2807,7 @@
     "Construct"
   ],
   "name": "KubeComponentStatusList"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubeComponentStatusProps'), typing.Dict[str, typing.Any]]]",
@@ -2818,7 +2819,7 @@
   },
   "ancestors": null,
   "name": "KubeComponentStatusListProps"
-}
+},
 {
   "conditions": {
     "type": "typing.Optional[typing.Sequence[typing.Union[cdk8s_plus_25.k8s.ComponentCondition, typing.Dict[str, typing.Any]]]]",
@@ -2830,7 +2831,7 @@
   },
   "ancestors": null,
   "name": "KubeComponentStatusProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -2861,7 +2862,7 @@
     "Construct"
   ],
   "name": "KubeConfigMap"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -2884,7 +2885,7 @@
     "Construct"
   ],
   "name": "KubeConfigMapList"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubeConfigMapProps'), typing.Dict[str, typing.Any]]]",
@@ -2896,7 +2897,7 @@
   },
   "ancestors": null,
   "name": "KubeConfigMapListProps"
-}
+},
 {
   "binary_data": {
     "type": "typing.Optional[typing.Mapping[str, str]]",
@@ -2916,7 +2917,7 @@
   },
   "ancestors": null,
   "name": "KubeConfigMapProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -2943,7 +2944,7 @@
     "Construct"
   ],
   "name": "KubeControllerRevision"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -2966,7 +2967,7 @@
     "Construct"
   ],
   "name": "KubeControllerRevisionList"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubeControllerRevisionProps'), typing.Dict[str, typing.Any]]]",
@@ -2978,7 +2979,7 @@
   },
   "ancestors": null,
   "name": "KubeControllerRevisionListProps"
-}
+},
 {
   "revision": {
     "type": "typing.Union[int, float]",
@@ -2994,7 +2995,7 @@
   },
   "ancestors": null,
   "name": "KubeControllerRevisionProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -3017,7 +3018,7 @@
     "Construct"
   ],
   "name": "KubeCronJob"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -3040,7 +3041,7 @@
     "Construct"
   ],
   "name": "KubeCronJobList"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubeCronJobProps'), typing.Dict[str, typing.Any]]]",
@@ -3052,7 +3053,7 @@
   },
   "ancestors": null,
   "name": "KubeCronJobListProps"
-}
+},
 {
   "metadata": {
     "type": "typing.Union[ForwardRef('ObjectMeta'), typing.Dict[str, typing.Any], NoneType]",
@@ -3064,7 +3065,7 @@
   },
   "ancestors": null,
   "name": "KubeCronJobProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -3087,7 +3088,7 @@
     "Construct"
   ],
   "name": "KubeCsiDriver"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -3110,7 +3111,7 @@
     "Construct"
   ],
   "name": "KubeCsiDriverList"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubeCsiDriverProps'), typing.Dict[str, typing.Any]]]",
@@ -3122,7 +3123,7 @@
   },
   "ancestors": null,
   "name": "KubeCsiDriverListProps"
-}
+},
 {
   "spec": {
     "type": "typing.Union[cdk8s_plus_25.k8s.CsiDriverSpec, typing.Dict[str, typing.Any]]",
@@ -3134,7 +3135,7 @@
   },
   "ancestors": null,
   "name": "KubeCsiDriverProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -3157,7 +3158,7 @@
     "Construct"
   ],
   "name": "KubeCsiNode"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -3180,7 +3181,7 @@
     "Construct"
   ],
   "name": "KubeCsiNodeList"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubeCsiNodeProps'), typing.Dict[str, typing.Any]]]",
@@ -3192,7 +3193,7 @@
   },
   "ancestors": null,
   "name": "KubeCsiNodeListProps"
-}
+},
 {
   "spec": {
     "type": "typing.Union[cdk8s_plus_25.k8s.CsiNodeSpec, typing.Dict[str, typing.Any]]",
@@ -3204,7 +3205,7 @@
   },
   "ancestors": null,
   "name": "KubeCsiNodeProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -3239,7 +3240,7 @@
     "Construct"
   ],
   "name": "KubeCsiStorageCapacity"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -3262,7 +3263,7 @@
     "Construct"
   ],
   "name": "KubeCsiStorageCapacityList"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubeCsiStorageCapacityProps'), typing.Dict[str, typing.Any]]]",
@@ -3274,7 +3275,7 @@
   },
   "ancestors": null,
   "name": "KubeCsiStorageCapacityListProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -3297,7 +3298,7 @@
     "Construct"
   ],
   "name": "KubeCsiStorageCapacityListV1Beta1"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubeCsiStorageCapacityV1Beta1Props'), typing.Dict[str, typing.Any]]]",
@@ -3309,7 +3310,7 @@
   },
   "ancestors": null,
   "name": "KubeCsiStorageCapacityListV1Beta1Props"
-}
+},
 {
   "storage_class_name": {
     "type": "<class 'str'>",
@@ -3333,7 +3334,7 @@
   },
   "ancestors": null,
   "name": "KubeCsiStorageCapacityProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -3368,7 +3369,7 @@
     "Construct"
   ],
   "name": "KubeCsiStorageCapacityV1Beta1"
-}
+},
 {
   "storage_class_name": {
     "type": "<class 'str'>",
@@ -3392,7 +3393,7 @@
   },
   "ancestors": null,
   "name": "KubeCsiStorageCapacityV1Beta1Props"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -3415,7 +3416,7 @@
     "Construct"
   ],
   "name": "KubeCustomResourceDefinition"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -3438,7 +3439,7 @@
     "Construct"
   ],
   "name": "KubeCustomResourceDefinitionList"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubeCustomResourceDefinitionProps'), typing.Dict[str, typing.Any]]]",
@@ -3450,7 +3451,7 @@
   },
   "ancestors": null,
   "name": "KubeCustomResourceDefinitionListProps"
-}
+},
 {
   "spec": {
     "type": "typing.Union[cdk8s_plus_25.k8s.CustomResourceDefinitionSpec, typing.Dict[str, typing.Any]]",
@@ -3462,7 +3463,7 @@
   },
   "ancestors": null,
   "name": "KubeCustomResourceDefinitionProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -3485,7 +3486,7 @@
     "Construct"
   ],
   "name": "KubeDaemonSet"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -3508,7 +3509,7 @@
     "Construct"
   ],
   "name": "KubeDaemonSetList"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubeDaemonSetProps'), typing.Dict[str, typing.Any]]]",
@@ -3520,7 +3521,7 @@
   },
   "ancestors": null,
   "name": "KubeDaemonSetListProps"
-}
+},
 {
   "metadata": {
     "type": "typing.Union[ForwardRef('ObjectMeta'), typing.Dict[str, typing.Any], NoneType]",
@@ -3532,7 +3533,7 @@
   },
   "ancestors": null,
   "name": "KubeDaemonSetProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -3555,7 +3556,7 @@
     "Construct"
   ],
   "name": "KubeDeployment"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -3578,7 +3579,7 @@
     "Construct"
   ],
   "name": "KubeDeploymentList"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubeDeploymentProps'), typing.Dict[str, typing.Any]]]",
@@ -3590,7 +3591,7 @@
   },
   "ancestors": null,
   "name": "KubeDeploymentListProps"
-}
+},
 {
   "metadata": {
     "type": "typing.Union[ForwardRef('ObjectMeta'), typing.Dict[str, typing.Any], NoneType]",
@@ -3602,7 +3603,7 @@
   },
   "ancestors": null,
   "name": "KubeDeploymentProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -3633,7 +3634,7 @@
     "Construct"
   ],
   "name": "KubeEndpointSlice"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -3656,7 +3657,7 @@
     "Construct"
   ],
   "name": "KubeEndpointSliceList"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubeEndpointSliceProps'), typing.Dict[str, typing.Any]]]",
@@ -3668,7 +3669,7 @@
   },
   "ancestors": null,
   "name": "KubeEndpointSliceListProps"
-}
+},
 {
   "address_type": {
     "type": "<class 'str'>",
@@ -3688,7 +3689,7 @@
   },
   "ancestors": null,
   "name": "KubeEndpointSliceProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -3711,7 +3712,7 @@
     "Construct"
   ],
   "name": "KubeEndpoints"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -3734,7 +3735,7 @@
     "Construct"
   ],
   "name": "KubeEndpointsList"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubeEndpointsProps'), typing.Dict[str, typing.Any]]]",
@@ -3746,7 +3747,7 @@
   },
   "ancestors": null,
   "name": "KubeEndpointsListProps"
-}
+},
 {
   "metadata": {
     "type": "typing.Union[ForwardRef('ObjectMeta'), typing.Dict[str, typing.Any], NoneType]",
@@ -3758,7 +3759,7 @@
   },
   "ancestors": null,
   "name": "KubeEndpointsProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -3833,7 +3834,7 @@
     "Construct"
   ],
   "name": "KubeEvent"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -3856,7 +3857,7 @@
     "Construct"
   ],
   "name": "KubeEventList"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubeEventProps'), typing.Dict[str, typing.Any]]]",
@@ -3868,7 +3869,7 @@
   },
   "ancestors": null,
   "name": "KubeEventListProps"
-}
+},
 {
   "event_time": {
     "type": "<class 'datetime.datetime'>",
@@ -3932,7 +3933,7 @@
   },
   "ancestors": null,
   "name": "KubeEventProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -3955,7 +3956,7 @@
     "Construct"
   ],
   "name": "KubeEviction"
-}
+},
 {
   "delete_options": {
     "type": "typing.Union[cdk8s_plus_25.k8s.DeleteOptions, typing.Dict[str, typing.Any], NoneType]",
@@ -3967,7 +3968,7 @@
   },
   "ancestors": null,
   "name": "KubeEvictionProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -3990,7 +3991,7 @@
     "Construct"
   ],
   "name": "KubeFlowSchemaListV1Beta1"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubeFlowSchemaV1Beta1Props'), typing.Dict[str, typing.Any]]]",
@@ -4002,7 +4003,7 @@
   },
   "ancestors": null,
   "name": "KubeFlowSchemaListV1Beta1Props"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -4025,7 +4026,7 @@
     "Construct"
   ],
   "name": "KubeFlowSchemaListV1Beta2"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubeFlowSchemaV1Beta2Props'), typing.Dict[str, typing.Any]]]",
@@ -4037,7 +4038,7 @@
   },
   "ancestors": null,
   "name": "KubeFlowSchemaListV1Beta2Props"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -4060,7 +4061,7 @@
     "Construct"
   ],
   "name": "KubeFlowSchemaV1Beta1"
-}
+},
 {
   "metadata": {
     "type": "typing.Union[ForwardRef('ObjectMeta'), typing.Dict[str, typing.Any], NoneType]",
@@ -4072,7 +4073,7 @@
   },
   "ancestors": null,
   "name": "KubeFlowSchemaV1Beta1Props"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -4095,7 +4096,7 @@
     "Construct"
   ],
   "name": "KubeFlowSchemaV1Beta2"
-}
+},
 {
   "metadata": {
     "type": "typing.Union[ForwardRef('ObjectMeta'), typing.Dict[str, typing.Any], NoneType]",
@@ -4107,7 +4108,7 @@
   },
   "ancestors": null,
   "name": "KubeFlowSchemaV1Beta2Props"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -4130,7 +4131,7 @@
     "Construct"
   ],
   "name": "KubeHorizontalPodAutoscaler"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -4153,7 +4154,7 @@
     "Construct"
   ],
   "name": "KubeHorizontalPodAutoscalerList"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubeHorizontalPodAutoscalerProps'), typing.Dict[str, typing.Any]]]",
@@ -4165,7 +4166,7 @@
   },
   "ancestors": null,
   "name": "KubeHorizontalPodAutoscalerListProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -4188,7 +4189,7 @@
     "Construct"
   ],
   "name": "KubeHorizontalPodAutoscalerListV2"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -4211,7 +4212,7 @@
     "Construct"
   ],
   "name": "KubeHorizontalPodAutoscalerListV2Beta2"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubeHorizontalPodAutoscalerV2Beta2Props'), typing.Dict[str, typing.Any]]]",
@@ -4223,7 +4224,7 @@
   },
   "ancestors": null,
   "name": "KubeHorizontalPodAutoscalerListV2Beta2Props"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubeHorizontalPodAutoscalerV2Props'), typing.Dict[str, typing.Any]]]",
@@ -4235,7 +4236,7 @@
   },
   "ancestors": null,
   "name": "KubeHorizontalPodAutoscalerListV2Props"
-}
+},
 {
   "metadata": {
     "type": "typing.Union[ForwardRef('ObjectMeta'), typing.Dict[str, typing.Any], NoneType]",
@@ -4247,7 +4248,7 @@
   },
   "ancestors": null,
   "name": "KubeHorizontalPodAutoscalerProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -4270,7 +4271,7 @@
     "Construct"
   ],
   "name": "KubeHorizontalPodAutoscalerV2"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -4293,7 +4294,7 @@
     "Construct"
   ],
   "name": "KubeHorizontalPodAutoscalerV2Beta2"
-}
+},
 {
   "metadata": {
     "type": "typing.Union[ForwardRef('ObjectMeta'), typing.Dict[str, typing.Any], NoneType]",
@@ -4305,7 +4306,7 @@
   },
   "ancestors": null,
   "name": "KubeHorizontalPodAutoscalerV2Beta2Props"
-}
+},
 {
   "metadata": {
     "type": "typing.Union[ForwardRef('ObjectMeta'), typing.Dict[str, typing.Any], NoneType]",
@@ -4317,7 +4318,7 @@
   },
   "ancestors": null,
   "name": "KubeHorizontalPodAutoscalerV2Props"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -4340,7 +4341,7 @@
     "Construct"
   ],
   "name": "KubeIngress"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -4363,7 +4364,7 @@
     "Construct"
   ],
   "name": "KubeIngressClass"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -4386,7 +4387,7 @@
     "Construct"
   ],
   "name": "KubeIngressClassList"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubeIngressClassProps'), typing.Dict[str, typing.Any]]]",
@@ -4398,7 +4399,7 @@
   },
   "ancestors": null,
   "name": "KubeIngressClassListProps"
-}
+},
 {
   "metadata": {
     "type": "typing.Union[ForwardRef('ObjectMeta'), typing.Dict[str, typing.Any], NoneType]",
@@ -4410,7 +4411,7 @@
   },
   "ancestors": null,
   "name": "KubeIngressClassProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -4433,7 +4434,7 @@
     "Construct"
   ],
   "name": "KubeIngressList"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubeIngressProps'), typing.Dict[str, typing.Any]]]",
@@ -4445,7 +4446,7 @@
   },
   "ancestors": null,
   "name": "KubeIngressListProps"
-}
+},
 {
   "metadata": {
     "type": "typing.Union[ForwardRef('ObjectMeta'), typing.Dict[str, typing.Any], NoneType]",
@@ -4457,7 +4458,7 @@
   },
   "ancestors": null,
   "name": "KubeIngressProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -4480,7 +4481,7 @@
     "Construct"
   ],
   "name": "KubeJob"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -4503,7 +4504,7 @@
     "Construct"
   ],
   "name": "KubeJobList"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubeJobProps'), typing.Dict[str, typing.Any]]]",
@@ -4515,7 +4516,7 @@
   },
   "ancestors": null,
   "name": "KubeJobListProps"
-}
+},
 {
   "metadata": {
     "type": "typing.Union[ForwardRef('ObjectMeta'), typing.Dict[str, typing.Any], NoneType]",
@@ -4527,7 +4528,7 @@
   },
   "ancestors": null,
   "name": "KubeJobProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -4550,7 +4551,7 @@
     "Construct"
   ],
   "name": "KubeLease"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -4573,7 +4574,7 @@
     "Construct"
   ],
   "name": "KubeLeaseList"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubeLeaseProps'), typing.Dict[str, typing.Any]]]",
@@ -4585,7 +4586,7 @@
   },
   "ancestors": null,
   "name": "KubeLeaseListProps"
-}
+},
 {
   "metadata": {
     "type": "typing.Union[ForwardRef('ObjectMeta'), typing.Dict[str, typing.Any], NoneType]",
@@ -4597,7 +4598,7 @@
   },
   "ancestors": null,
   "name": "KubeLeaseProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -4620,7 +4621,7 @@
     "Construct"
   ],
   "name": "KubeLimitRange"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -4643,7 +4644,7 @@
     "Construct"
   ],
   "name": "KubeLimitRangeList"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubeLimitRangeProps'), typing.Dict[str, typing.Any]]]",
@@ -4655,7 +4656,7 @@
   },
   "ancestors": null,
   "name": "KubeLimitRangeListProps"
-}
+},
 {
   "metadata": {
     "type": "typing.Union[ForwardRef('ObjectMeta'), typing.Dict[str, typing.Any], NoneType]",
@@ -4667,7 +4668,7 @@
   },
   "ancestors": null,
   "name": "KubeLimitRangeProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -4690,7 +4691,7 @@
     "Construct"
   ],
   "name": "KubeLocalSubjectAccessReview"
-}
+},
 {
   "spec": {
     "type": "typing.Union[ForwardRef('SubjectAccessReviewSpec'), typing.Dict[str, typing.Any]]",
@@ -4702,7 +4703,7 @@
   },
   "ancestors": null,
   "name": "KubeLocalSubjectAccessReviewProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -4725,7 +4726,7 @@
     "Construct"
   ],
   "name": "KubeMutatingWebhookConfiguration"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -4748,7 +4749,7 @@
     "Construct"
   ],
   "name": "KubeMutatingWebhookConfigurationList"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubeMutatingWebhookConfigurationProps'), typing.Dict[str, typing.Any]]]",
@@ -4760,7 +4761,7 @@
   },
   "ancestors": null,
   "name": "KubeMutatingWebhookConfigurationListProps"
-}
+},
 {
   "metadata": {
     "type": "typing.Union[ForwardRef('ObjectMeta'), typing.Dict[str, typing.Any], NoneType]",
@@ -4772,7 +4773,7 @@
   },
   "ancestors": null,
   "name": "KubeMutatingWebhookConfigurationProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -4795,7 +4796,7 @@
     "Construct"
   ],
   "name": "KubeNamespace"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -4818,7 +4819,7 @@
     "Construct"
   ],
   "name": "KubeNamespaceList"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubeNamespaceProps'), typing.Dict[str, typing.Any]]]",
@@ -4830,7 +4831,7 @@
   },
   "ancestors": null,
   "name": "KubeNamespaceListProps"
-}
+},
 {
   "metadata": {
     "type": "typing.Union[ForwardRef('ObjectMeta'), typing.Dict[str, typing.Any], NoneType]",
@@ -4842,7 +4843,7 @@
   },
   "ancestors": null,
   "name": "KubeNamespaceProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -4865,7 +4866,7 @@
     "Construct"
   ],
   "name": "KubeNetworkPolicy"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -4888,7 +4889,7 @@
     "Construct"
   ],
   "name": "KubeNetworkPolicyList"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubeNetworkPolicyProps'), typing.Dict[str, typing.Any]]]",
@@ -4900,7 +4901,7 @@
   },
   "ancestors": null,
   "name": "KubeNetworkPolicyListProps"
-}
+},
 {
   "metadata": {
     "type": "typing.Union[ForwardRef('ObjectMeta'), typing.Dict[str, typing.Any], NoneType]",
@@ -4912,7 +4913,7 @@
   },
   "ancestors": null,
   "name": "KubeNetworkPolicyProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -4935,7 +4936,7 @@
     "Construct"
   ],
   "name": "KubeNode"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -4958,7 +4959,7 @@
     "Construct"
   ],
   "name": "KubeNodeList"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubeNodeProps'), typing.Dict[str, typing.Any]]]",
@@ -4970,7 +4971,7 @@
   },
   "ancestors": null,
   "name": "KubeNodeListProps"
-}
+},
 {
   "metadata": {
     "type": "typing.Union[ForwardRef('ObjectMeta'), typing.Dict[str, typing.Any], NoneType]",
@@ -4982,7 +4983,7 @@
   },
   "ancestors": null,
   "name": "KubeNodeProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -5005,7 +5006,7 @@
     "Construct"
   ],
   "name": "KubePersistentVolume"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -5028,7 +5029,7 @@
     "Construct"
   ],
   "name": "KubePersistentVolumeClaim"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -5051,7 +5052,7 @@
     "Construct"
   ],
   "name": "KubePersistentVolumeClaimList"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubePersistentVolumeClaimProps'), typing.Dict[str, typing.Any]]]",
@@ -5063,7 +5064,7 @@
   },
   "ancestors": null,
   "name": "KubePersistentVolumeClaimListProps"
-}
+},
 {
   "metadata": {
     "type": "typing.Union[ForwardRef('ObjectMeta'), typing.Dict[str, typing.Any], NoneType]",
@@ -5075,7 +5076,7 @@
   },
   "ancestors": null,
   "name": "KubePersistentVolumeClaimProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -5098,7 +5099,7 @@
     "Construct"
   ],
   "name": "KubePersistentVolumeList"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubePersistentVolumeProps'), typing.Dict[str, typing.Any]]]",
@@ -5110,7 +5111,7 @@
   },
   "ancestors": null,
   "name": "KubePersistentVolumeListProps"
-}
+},
 {
   "metadata": {
     "type": "typing.Union[ForwardRef('ObjectMeta'), typing.Dict[str, typing.Any], NoneType]",
@@ -5122,7 +5123,7 @@
   },
   "ancestors": null,
   "name": "KubePersistentVolumeProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -5145,7 +5146,7 @@
     "Construct"
   ],
   "name": "KubePod"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -5168,7 +5169,7 @@
     "Construct"
   ],
   "name": "KubePodDisruptionBudget"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -5191,7 +5192,7 @@
     "Construct"
   ],
   "name": "KubePodDisruptionBudgetList"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubePodDisruptionBudgetProps'), typing.Dict[str, typing.Any]]]",
@@ -5203,7 +5204,7 @@
   },
   "ancestors": null,
   "name": "KubePodDisruptionBudgetListProps"
-}
+},
 {
   "metadata": {
     "type": "typing.Union[ForwardRef('ObjectMeta'), typing.Dict[str, typing.Any], NoneType]",
@@ -5215,7 +5216,7 @@
   },
   "ancestors": null,
   "name": "KubePodDisruptionBudgetProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -5238,7 +5239,7 @@
     "Construct"
   ],
   "name": "KubePodList"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubePodProps'), typing.Dict[str, typing.Any]]]",
@@ -5250,7 +5251,7 @@
   },
   "ancestors": null,
   "name": "KubePodListProps"
-}
+},
 {
   "metadata": {
     "type": "typing.Union[ForwardRef('ObjectMeta'), typing.Dict[str, typing.Any], NoneType]",
@@ -5262,7 +5263,7 @@
   },
   "ancestors": null,
   "name": "KubePodProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -5285,7 +5286,7 @@
     "Construct"
   ],
   "name": "KubePodTemplate"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -5308,7 +5309,7 @@
     "Construct"
   ],
   "name": "KubePodTemplateList"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubePodTemplateProps'), typing.Dict[str, typing.Any]]]",
@@ -5320,7 +5321,7 @@
   },
   "ancestors": null,
   "name": "KubePodTemplateListProps"
-}
+},
 {
   "metadata": {
     "type": "typing.Union[ForwardRef('ObjectMeta'), typing.Dict[str, typing.Any], NoneType]",
@@ -5332,7 +5333,7 @@
   },
   "ancestors": null,
   "name": "KubePodTemplateProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -5367,7 +5368,7 @@
     "Construct"
   ],
   "name": "KubePriorityClass"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -5390,7 +5391,7 @@
     "Construct"
   ],
   "name": "KubePriorityClassList"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubePriorityClassProps'), typing.Dict[str, typing.Any]]]",
@@ -5402,7 +5403,7 @@
   },
   "ancestors": null,
   "name": "KubePriorityClassListProps"
-}
+},
 {
   "value": {
     "type": "typing.Union[int, float]",
@@ -5426,7 +5427,7 @@
   },
   "ancestors": null,
   "name": "KubePriorityClassProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -5449,7 +5450,7 @@
     "Construct"
   ],
   "name": "KubePriorityLevelConfigurationListV1Beta1"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubePriorityLevelConfigurationV1Beta1Props'), typing.Dict[str, typing.Any]]]",
@@ -5461,7 +5462,7 @@
   },
   "ancestors": null,
   "name": "KubePriorityLevelConfigurationListV1Beta1Props"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -5484,7 +5485,7 @@
     "Construct"
   ],
   "name": "KubePriorityLevelConfigurationListV1Beta2"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubePriorityLevelConfigurationV1Beta2Props'), typing.Dict[str, typing.Any]]]",
@@ -5496,7 +5497,7 @@
   },
   "ancestors": null,
   "name": "KubePriorityLevelConfigurationListV1Beta2Props"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -5519,7 +5520,7 @@
     "Construct"
   ],
   "name": "KubePriorityLevelConfigurationV1Beta1"
-}
+},
 {
   "metadata": {
     "type": "typing.Union[ForwardRef('ObjectMeta'), typing.Dict[str, typing.Any], NoneType]",
@@ -5531,7 +5532,7 @@
   },
   "ancestors": null,
   "name": "KubePriorityLevelConfigurationV1Beta1Props"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -5554,7 +5555,7 @@
     "Construct"
   ],
   "name": "KubePriorityLevelConfigurationV1Beta2"
-}
+},
 {
   "metadata": {
     "type": "typing.Union[ForwardRef('ObjectMeta'), typing.Dict[str, typing.Any], NoneType]",
@@ -5566,7 +5567,7 @@
   },
   "ancestors": null,
   "name": "KubePriorityLevelConfigurationV1Beta2Props"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -5589,7 +5590,7 @@
     "Construct"
   ],
   "name": "KubeReplicaSet"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -5612,7 +5613,7 @@
     "Construct"
   ],
   "name": "KubeReplicaSetList"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubeReplicaSetProps'), typing.Dict[str, typing.Any]]]",
@@ -5624,7 +5625,7 @@
   },
   "ancestors": null,
   "name": "KubeReplicaSetListProps"
-}
+},
 {
   "metadata": {
     "type": "typing.Union[ForwardRef('ObjectMeta'), typing.Dict[str, typing.Any], NoneType]",
@@ -5636,7 +5637,7 @@
   },
   "ancestors": null,
   "name": "KubeReplicaSetProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -5659,7 +5660,7 @@
     "Construct"
   ],
   "name": "KubeReplicationController"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -5682,7 +5683,7 @@
     "Construct"
   ],
   "name": "KubeReplicationControllerList"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubeReplicationControllerProps'), typing.Dict[str, typing.Any]]]",
@@ -5694,7 +5695,7 @@
   },
   "ancestors": null,
   "name": "KubeReplicationControllerListProps"
-}
+},
 {
   "metadata": {
     "type": "typing.Union[ForwardRef('ObjectMeta'), typing.Dict[str, typing.Any], NoneType]",
@@ -5706,7 +5707,7 @@
   },
   "ancestors": null,
   "name": "KubeReplicationControllerProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -5729,7 +5730,7 @@
     "Construct"
   ],
   "name": "KubeResourceQuota"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -5752,7 +5753,7 @@
     "Construct"
   ],
   "name": "KubeResourceQuotaList"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubeResourceQuotaProps'), typing.Dict[str, typing.Any]]]",
@@ -5764,7 +5765,7 @@
   },
   "ancestors": null,
   "name": "KubeResourceQuotaListProps"
-}
+},
 {
   "metadata": {
     "type": "typing.Union[ForwardRef('ObjectMeta'), typing.Dict[str, typing.Any], NoneType]",
@@ -5776,7 +5777,7 @@
   },
   "ancestors": null,
   "name": "KubeResourceQuotaProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -5799,7 +5800,7 @@
     "Construct"
   ],
   "name": "KubeRole"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -5826,7 +5827,7 @@
     "Construct"
   ],
   "name": "KubeRoleBinding"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -5849,7 +5850,7 @@
     "Construct"
   ],
   "name": "KubeRoleBindingList"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubeRoleBindingProps'), typing.Dict[str, typing.Any]]]",
@@ -5861,7 +5862,7 @@
   },
   "ancestors": null,
   "name": "KubeRoleBindingListProps"
-}
+},
 {
   "role_ref": {
     "type": "typing.Union[ForwardRef('RoleRef'), typing.Dict[str, typing.Any]]",
@@ -5877,7 +5878,7 @@
   },
   "ancestors": null,
   "name": "KubeRoleBindingProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -5900,7 +5901,7 @@
     "Construct"
   ],
   "name": "KubeRoleList"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubeRoleProps'), typing.Dict[str, typing.Any]]]",
@@ -5912,7 +5913,7 @@
   },
   "ancestors": null,
   "name": "KubeRoleListProps"
-}
+},
 {
   "metadata": {
     "type": "typing.Union[ForwardRef('ObjectMeta'), typing.Dict[str, typing.Any], NoneType]",
@@ -5924,7 +5925,7 @@
   },
   "ancestors": null,
   "name": "KubeRoleProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -5955,7 +5956,7 @@
     "Construct"
   ],
   "name": "KubeRuntimeClass"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -5978,7 +5979,7 @@
     "Construct"
   ],
   "name": "KubeRuntimeClassList"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubeRuntimeClassProps'), typing.Dict[str, typing.Any]]]",
@@ -5990,7 +5991,7 @@
   },
   "ancestors": null,
   "name": "KubeRuntimeClassListProps"
-}
+},
 {
   "handler": {
     "type": "<class 'str'>",
@@ -6010,7 +6011,7 @@
   },
   "ancestors": null,
   "name": "KubeRuntimeClassProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -6033,7 +6034,7 @@
     "Construct"
   ],
   "name": "KubeScale"
-}
+},
 {
   "metadata": {
     "type": "typing.Union[ForwardRef('ObjectMeta'), typing.Dict[str, typing.Any], NoneType]",
@@ -6045,7 +6046,7 @@
   },
   "ancestors": null,
   "name": "KubeScaleProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -6080,7 +6081,7 @@
     "Construct"
   ],
   "name": "KubeSecret"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -6103,7 +6104,7 @@
     "Construct"
   ],
   "name": "KubeSecretList"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubeSecretProps'), typing.Dict[str, typing.Any]]]",
@@ -6115,7 +6116,7 @@
   },
   "ancestors": null,
   "name": "KubeSecretListProps"
-}
+},
 {
   "data": {
     "type": "typing.Optional[typing.Mapping[str, str]]",
@@ -6139,7 +6140,7 @@
   },
   "ancestors": null,
   "name": "KubeSecretProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -6162,7 +6163,7 @@
     "Construct"
   ],
   "name": "KubeSelfSubjectAccessReview"
-}
+},
 {
   "spec": {
     "type": "typing.Union[ForwardRef('SelfSubjectAccessReviewSpec'), typing.Dict[str, typing.Any]]",
@@ -6174,7 +6175,7 @@
   },
   "ancestors": null,
   "name": "KubeSelfSubjectAccessReviewProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -6197,7 +6198,7 @@
     "Construct"
   ],
   "name": "KubeSelfSubjectRulesReview"
-}
+},
 {
   "spec": {
     "type": "typing.Union[ForwardRef('SelfSubjectRulesReviewSpec'), typing.Dict[str, typing.Any]]",
@@ -6209,7 +6210,7 @@
   },
   "ancestors": null,
   "name": "KubeSelfSubjectRulesReviewProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -6232,7 +6233,7 @@
     "Construct"
   ],
   "name": "KubeService"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -6263,7 +6264,7 @@
     "Construct"
   ],
   "name": "KubeServiceAccount"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -6286,7 +6287,7 @@
     "Construct"
   ],
   "name": "KubeServiceAccountList"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubeServiceAccountProps'), typing.Dict[str, typing.Any]]]",
@@ -6298,7 +6299,7 @@
   },
   "ancestors": null,
   "name": "KubeServiceAccountListProps"
-}
+},
 {
   "automount_service_account_token": {
     "type": "typing.Optional[bool]",
@@ -6318,7 +6319,7 @@
   },
   "ancestors": null,
   "name": "KubeServiceAccountProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -6341,7 +6342,7 @@
     "Construct"
   ],
   "name": "KubeServiceList"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubeServiceProps'), typing.Dict[str, typing.Any]]]",
@@ -6353,7 +6354,7 @@
   },
   "ancestors": null,
   "name": "KubeServiceListProps"
-}
+},
 {
   "metadata": {
     "type": "typing.Union[ForwardRef('ObjectMeta'), typing.Dict[str, typing.Any], NoneType]",
@@ -6365,7 +6366,7 @@
   },
   "ancestors": null,
   "name": "KubeServiceProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -6388,7 +6389,7 @@
     "Construct"
   ],
   "name": "KubeStatefulSet"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -6411,7 +6412,7 @@
     "Construct"
   ],
   "name": "KubeStatefulSetList"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubeStatefulSetProps'), typing.Dict[str, typing.Any]]]",
@@ -6423,7 +6424,7 @@
   },
   "ancestors": null,
   "name": "KubeStatefulSetListProps"
-}
+},
 {
   "metadata": {
     "type": "typing.Union[ForwardRef('ObjectMeta'), typing.Dict[str, typing.Any], NoneType]",
@@ -6435,7 +6436,7 @@
   },
   "ancestors": null,
   "name": "KubeStatefulSetProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -6470,7 +6471,7 @@
     "Construct"
   ],
   "name": "KubeStatus"
-}
+},
 {
   "code": {
     "type": "typing.Union[int, float, NoneType]",
@@ -6494,7 +6495,7 @@
   },
   "ancestors": null,
   "name": "KubeStatusProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -6541,7 +6542,7 @@
     "Construct"
   ],
   "name": "KubeStorageClass"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -6564,7 +6565,7 @@
     "Construct"
   ],
   "name": "KubeStorageClassList"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubeStorageClassProps'), typing.Dict[str, typing.Any]]]",
@@ -6576,7 +6577,7 @@
   },
   "ancestors": null,
   "name": "KubeStorageClassListProps"
-}
+},
 {
   "provisioner": {
     "type": "<class 'str'>",
@@ -6612,7 +6613,7 @@
   },
   "ancestors": null,
   "name": "KubeStorageClassProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -6635,7 +6636,7 @@
     "Construct"
   ],
   "name": "KubeStorageVersionListV1Alpha1"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubeStorageVersionV1Alpha1Props'), typing.Dict[str, typing.Any]]]",
@@ -6647,7 +6648,7 @@
   },
   "ancestors": null,
   "name": "KubeStorageVersionListV1Alpha1Props"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -6670,7 +6671,7 @@
     "Construct"
   ],
   "name": "KubeStorageVersionV1Alpha1"
-}
+},
 {
   "spec": {
     "type": "typing.Any",
@@ -6682,7 +6683,7 @@
   },
   "ancestors": null,
   "name": "KubeStorageVersionV1Alpha1Props"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -6705,7 +6706,7 @@
     "Construct"
   ],
   "name": "KubeSubjectAccessReview"
-}
+},
 {
   "spec": {
     "type": "typing.Union[ForwardRef('SubjectAccessReviewSpec'), typing.Dict[str, typing.Any]]",
@@ -6717,7 +6718,7 @@
   },
   "ancestors": null,
   "name": "KubeSubjectAccessReviewProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -6740,7 +6741,7 @@
     "Construct"
   ],
   "name": "KubeTokenRequest"
-}
+},
 {
   "spec": {
     "type": "typing.Union[ForwardRef('TokenRequestSpec'), typing.Dict[str, typing.Any]]",
@@ -6752,7 +6753,7 @@
   },
   "ancestors": null,
   "name": "KubeTokenRequestProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -6775,7 +6776,7 @@
     "Construct"
   ],
   "name": "KubeTokenReview"
-}
+},
 {
   "spec": {
     "type": "typing.Union[ForwardRef('TokenReviewSpec'), typing.Dict[str, typing.Any]]",
@@ -6787,7 +6788,7 @@
   },
   "ancestors": null,
   "name": "KubeTokenReviewProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -6810,7 +6811,7 @@
     "Construct"
   ],
   "name": "KubeValidatingWebhookConfiguration"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -6833,7 +6834,7 @@
     "Construct"
   ],
   "name": "KubeValidatingWebhookConfigurationList"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubeValidatingWebhookConfigurationProps'), typing.Dict[str, typing.Any]]]",
@@ -6845,7 +6846,7 @@
   },
   "ancestors": null,
   "name": "KubeValidatingWebhookConfigurationListProps"
-}
+},
 {
   "metadata": {
     "type": "typing.Union[ForwardRef('ObjectMeta'), typing.Dict[str, typing.Any], NoneType]",
@@ -6857,7 +6858,7 @@
   },
   "ancestors": null,
   "name": "KubeValidatingWebhookConfigurationProps"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -6880,7 +6881,7 @@
     "Construct"
   ],
   "name": "KubeVolumeAttachment"
-}
+},
 {
   "scope": {
     "type": "<class 'constructs.Construct'>",
@@ -6903,7 +6904,7 @@
     "Construct"
   ],
   "name": "KubeVolumeAttachmentList"
-}
+},
 {
   "items": {
     "type": "typing.Sequence[typing.Union[ForwardRef('KubeVolumeAttachmentProps'), typing.Dict[str, typing.Any]]]",
@@ -6915,7 +6916,7 @@
   },
   "ancestors": null,
   "name": "KubeVolumeAttachmentListProps"
-}
+},
 {
   "spec": {
     "type": "typing.Union[ForwardRef('VolumeAttachmentSpec'), typing.Dict[str, typing.Any]]",
@@ -6927,7 +6928,7 @@
   },
   "ancestors": null,
   "name": "KubeVolumeAttachmentProps"
-}
+},
 {
   "match_expressions": {
     "type": "typing.Optional[typing.Sequence[typing.Union[ForwardRef('LabelSelectorRequirement'), typing.Dict[str, typing.Any]]]]",
@@ -6939,7 +6940,7 @@
   },
   "ancestors": null,
   "name": "LabelSelector"
-}
+},
 {
   "key": {
     "type": "<class 'str'>",
@@ -6955,7 +6956,7 @@
   },
   "ancestors": null,
   "name": "LabelSelectorRequirement"
-}
+},
 {
   "acquire_time": {
     "type": "typing.Optional[datetime.datetime]",
@@ -6979,7 +6980,7 @@
   },
   "ancestors": null,
   "name": "LeaseSpec"
-}
+},
 {
   "post_start": {
     "type": "typing.Union[ForwardRef('LifecycleHandler'), typing.Dict[str, typing.Any], NoneType]",
@@ -6991,7 +6992,7 @@
   },
   "ancestors": null,
   "name": "Lifecycle"
-}
+},
 {
   "exec": {
     "type": "typing.Union[cdk8s_plus_25.k8s.ExecAction, typing.Dict[str, typing.Any], NoneType]",
@@ -7007,7 +7008,7 @@
   },
   "ancestors": null,
   "name": "LifecycleHandler"
-}
+},
 {
   "type": {
     "type": "<class 'str'>",
@@ -7035,7 +7036,7 @@
   },
   "ancestors": null,
   "name": "LimitRangeItem"
-}
+},
 {
   "limits": {
     "type": "typing.Sequence[typing.Union[cdk8s_plus_25.k8s.LimitRangeItem, typing.Dict[str, typing.Any]]]",
@@ -7043,7 +7044,7 @@
   },
   "ancestors": null,
   "name": "LimitRangeSpec"
-}
+},
 {
   "type": {
     "type": "<class 'str'>",
@@ -7055,7 +7056,7 @@
   },
   "ancestors": null,
   "name": "LimitResponseV1Beta1"
-}
+},
 {
   "type": {
     "type": "<class 'str'>",
@@ -7067,7 +7068,7 @@
   },
   "ancestors": null,
   "name": "LimitResponseV1Beta2"
-}
+},
 {
   "assured_concurrency_shares": {
     "type": "typing.Union[int, float, NoneType]",
@@ -7079,7 +7080,7 @@
   },
   "ancestors": null,
   "name": "LimitedPriorityLevelConfigurationV1Beta1"
-}
+},
 {
   "assured_concurrency_shares": {
     "type": "typing.Union[int, float, NoneType]",
@@ -7091,7 +7092,7 @@
   },
   "ancestors": null,
   "name": "LimitedPriorityLevelConfigurationV1Beta2"
-}
+},
 {
   "continue_": {
     "type": "typing.Optional[str]",
@@ -7111,11 +7112,11 @@
   },
   "ancestors": null,
   "name": "ListMeta"
-}
+},
 {
   "name": "LocalObjectReference",
   "ancestors": null
-}
+},
 {
   "path": {
     "type": "<class 'str'>",
@@ -7127,7 +7128,7 @@
   },
   "ancestors": null,
   "name": "LocalVolumeSource"
-}
+},
 {
   "api_version": {
     "type": "typing.Optional[str]",
@@ -7159,7 +7160,7 @@
   },
   "ancestors": null,
   "name": "ManagedFieldsEntry"
-}
+},
 {
   "name": "MetricIdentifierV2",
   "selector": {
@@ -7167,7 +7168,7 @@
     "optional": true
   },
   "ancestors": null
-}
+},
 {
   "name": "MetricIdentifierV2Beta2",
   "selector": {
@@ -7175,7 +7176,7 @@
     "optional": true
   },
   "ancestors": null
-}
+},
 {
   "type": {
     "type": "<class 'str'>",
@@ -7203,7 +7204,7 @@
   },
   "ancestors": null,
   "name": "MetricSpecV2"
-}
+},
 {
   "type": {
     "type": "<class 'str'>",
@@ -7231,7 +7232,7 @@
   },
   "ancestors": null,
   "name": "MetricSpecV2Beta2"
-}
+},
 {
   "type": {
     "type": "<class 'str'>",
@@ -7251,7 +7252,7 @@
   },
   "ancestors": null,
   "name": "MetricTargetV2"
-}
+},
 {
   "type": {
     "type": "<class 'str'>",
@@ -7271,7 +7272,7 @@
   },
   "ancestors": null,
   "name": "MetricTargetV2Beta2"
-}
+},
 {
   "admission_review_versions": {
     "type": "typing.Sequence[str]",
@@ -7315,7 +7316,7 @@
     "optional": true
   },
   "ancestors": null
-}
+},
 {
   "finalizers": {
     "type": "typing.Optional[typing.Sequence[str]]",
@@ -7323,7 +7324,7 @@
   },
   "ancestors": null,
   "name": "NamespaceSpec"
-}
+},
 {
   "ports": {
     "type": "typing.Optional[typing.Sequence[typing.Union[ForwardRef('NetworkPolicyPort'), typing.Dict[str, typing.Any]]]]",
@@ -7335,7 +7336,7 @@
   },
   "ancestors": null,
   "name": "NetworkPolicyEgressRule"
-}
+},
 {
   "from_": {
     "type": "typing.Optional[typing.Sequence[typing.Union[ForwardRef('NetworkPolicyPeer'), typing.Dict[str, typing.Any]]]]",
@@ -7347,7 +7348,7 @@
   },
   "ancestors": null,
   "name": "NetworkPolicyIngressRule"
-}
+},
 {
   "ip_block": {
     "type": "typing.Union[cdk8s_plus_25.k8s.IpBlock, typing.Dict[str, typing.Any], NoneType]",
@@ -7363,7 +7364,7 @@
   },
   "ancestors": null,
   "name": "NetworkPolicyPeer"
-}
+},
 {
   "end_port": {
     "type": "typing.Union[int, float, NoneType]",
@@ -7379,7 +7380,7 @@
   },
   "ancestors": null,
   "name": "NetworkPolicyPort"
-}
+},
 {
   "pod_selector": {
     "type": "typing.Union[cdk8s_plus_25.k8s.LabelSelector, typing.Dict[str, typing.Any]]",
@@ -7399,7 +7400,7 @@
   },
   "ancestors": null,
   "name": "NetworkPolicySpec"
-}
+},
 {
   "path": {
     "type": "<class 'str'>",
@@ -7415,7 +7416,7 @@
   },
   "ancestors": null,
   "name": "NfsVolumeSource"
-}
+},
 {
   "preferred_during_scheduling_ignored_during_execution": {
     "type": "typing.Optional[typing.Sequence[typing.Union[ForwardRef('PreferredSchedulingTerm'), typing.Dict[str, typing.Any]]]]",
@@ -7427,7 +7428,7 @@
   },
   "ancestors": null,
   "name": "NodeAffinity"
-}
+},
 {
   "config_map": {
     "type": "typing.Union[cdk8s_plus_25.k8s.ConfigMapNodeConfigSource, typing.Dict[str, typing.Any], NoneType]",
@@ -7435,7 +7436,7 @@
   },
   "ancestors": null,
   "name": "NodeConfigSource"
-}
+},
 {
   "node_selector_terms": {
     "type": "typing.Sequence[typing.Union[ForwardRef('NodeSelectorTerm'), typing.Dict[str, typing.Any]]]",
@@ -7443,7 +7444,7 @@
   },
   "ancestors": null,
   "name": "NodeSelector"
-}
+},
 {
   "key": {
     "type": "<class 'str'>",
@@ -7459,7 +7460,7 @@
   },
   "ancestors": null,
   "name": "NodeSelectorRequirement"
-}
+},
 {
   "match_expressions": {
     "type": "typing.Optional[typing.Sequence[typing.Union[cdk8s_plus_25.k8s.NodeSelectorRequirement, typing.Dict[str, typing.Any]]]]",
@@ -7471,7 +7472,7 @@
   },
   "ancestors": null,
   "name": "NodeSelectorTerm"
-}
+},
 {
   "config_source": {
     "type": "typing.Union[cdk8s_plus_25.k8s.NodeConfigSource, typing.Dict[str, typing.Any], NoneType]",
@@ -7503,7 +7504,7 @@
   },
   "ancestors": null,
   "name": "NodeSpec"
-}
+},
 {
   "path": {
     "type": "typing.Optional[str]",
@@ -7515,7 +7516,7 @@
   },
   "ancestors": null,
   "name": "NonResourceAttributes"
-}
+},
 {
   "non_resource_ur_ls": {
     "type": "typing.Sequence[str]",
@@ -7527,7 +7528,7 @@
   },
   "ancestors": null,
   "name": "NonResourcePolicyRuleV1Beta1"
-}
+},
 {
   "non_resource_ur_ls": {
     "type": "typing.Sequence[str]",
@@ -7539,7 +7540,7 @@
   },
   "ancestors": null,
   "name": "NonResourcePolicyRuleV1Beta2"
-}
+},
 {
   "field_path": {
     "type": "<class 'str'>",
@@ -7551,7 +7552,7 @@
   },
   "ancestors": null,
   "name": "ObjectFieldSelector"
-}
+},
 {
   "annotations": {
     "type": "typing.Optional[typing.Mapping[str, str]]",
@@ -7611,7 +7612,7 @@
     "optional": true
   },
   "ancestors": null
-}
+},
 {
   "described_object": {
     "type": "typing.Union[cdk8s_plus_25.k8s.CrossVersionObjectReferenceV2, typing.Dict[str, typing.Any]]",
@@ -7627,7 +7628,7 @@
   },
   "ancestors": null,
   "name": "ObjectMetricSourceV2"
-}
+},
 {
   "described_object": {
     "type": "typing.Union[cdk8s_plus_25.k8s.CrossVersionObjectReferenceV2Beta2, typing.Dict[str, typing.Any]]",
@@ -7643,7 +7644,7 @@
   },
   "ancestors": null,
   "name": "ObjectMetricSourceV2Beta2"
-}
+},
 {
   "api_version": {
     "type": "typing.Optional[str]",
@@ -7671,7 +7672,7 @@
     "optional": true
   },
   "ancestors": null
-}
+},
 {
   "pod_fixed": {
     "type": "typing.Optional[typing.Mapping[str, ForwardRef('Quantity')]]",
@@ -7679,7 +7680,7 @@
   },
   "ancestors": null,
   "name": "Overhead"
-}
+},
 {
   "api_version": {
     "type": "<class 'str'>",
@@ -7703,7 +7704,7 @@
     "optional": true
   },
   "ancestors": null
-}
+},
 {
   "access_modes": {
     "type": "typing.Optional[typing.Sequence[str]]",
@@ -7739,7 +7740,7 @@
   },
   "ancestors": null,
   "name": "PersistentVolumeClaimSpec"
-}
+},
 {
   "spec": {
     "type": "typing.Union[cdk8s_plus_25.k8s.PersistentVolumeClaimSpec, typing.Dict[str, typing.Any]]",
@@ -7751,7 +7752,7 @@
   },
   "ancestors": null,
   "name": "PersistentVolumeClaimTemplate"
-}
+},
 {
   "claim_name": {
     "type": "<class 'str'>",
@@ -7763,7 +7764,7 @@
   },
   "ancestors": null,
   "name": "PersistentVolumeClaimVolumeSource"
-}
+},
 {
   "access_modes": {
     "type": "typing.Optional[typing.Sequence[str]]",
@@ -7887,7 +7888,7 @@
   },
   "ancestors": null,
   "name": "PersistentVolumeSpec"
-}
+},
 {
   "pd_id": {
     "type": "<class 'str'>",
@@ -7899,7 +7900,7 @@
   },
   "ancestors": null,
   "name": "PhotonPersistentDiskVolumeSource"
-}
+},
 {
   "preferred_during_scheduling_ignored_during_execution": {
     "type": "typing.Optional[typing.Sequence[typing.Union[ForwardRef('WeightedPodAffinityTerm'), typing.Dict[str, typing.Any]]]]",
@@ -7911,7 +7912,7 @@
   },
   "ancestors": null,
   "name": "PodAffinity"
-}
+},
 {
   "topology_key": {
     "type": "<class 'str'>",
@@ -7931,7 +7932,7 @@
   },
   "ancestors": null,
   "name": "PodAffinityTerm"
-}
+},
 {
   "preferred_during_scheduling_ignored_during_execution": {
     "type": "typing.Optional[typing.Sequence[typing.Union[ForwardRef('WeightedPodAffinityTerm'), typing.Dict[str, typing.Any]]]]",
@@ -7943,7 +7944,7 @@
   },
   "ancestors": null,
   "name": "PodAntiAffinity"
-}
+},
 {
   "max_unavailable": {
     "type": "typing.Optional[cdk8s_plus_25.k8s.IntOrString]",
@@ -7959,7 +7960,7 @@
   },
   "ancestors": null,
   "name": "PodDisruptionBudgetSpec"
-}
+},
 {
   "nameservers": {
     "type": "typing.Optional[typing.Sequence[str]]",
@@ -7975,7 +7976,7 @@
   },
   "ancestors": null,
   "name": "PodDnsConfig"
-}
+},
 {
   "name": "PodDnsConfigOption",
   "value": {
@@ -7983,7 +7984,7 @@
     "optional": true
   },
   "ancestors": null
-}
+},
 {
   "rules": {
     "type": "typing.Sequence[typing.Union[ForwardRef('PodFailurePolicyRule'), typing.Dict[str, typing.Any]]]",
@@ -7991,7 +7992,7 @@
   },
   "ancestors": null,
   "name": "PodFailurePolicy"
-}
+},
 {
   "operator": {
     "type": "<class 'str'>",
@@ -8007,7 +8008,7 @@
   },
   "ancestors": null,
   "name": "PodFailurePolicyOnExitCodesRequirement"
-}
+},
 {
   "status": {
     "type": "<class 'str'>",
@@ -8019,7 +8020,7 @@
   },
   "ancestors": null,
   "name": "PodFailurePolicyOnPodConditionsPattern"
-}
+},
 {
   "action": {
     "type": "<class 'str'>",
@@ -8035,11 +8036,11 @@
   },
   "ancestors": null,
   "name": "PodFailurePolicyRule"
-}
+},
 {
   "name": "PodOs",
   "ancestors": null
-}
+},
 {
   "condition_type": {
     "type": "<class 'str'>",
@@ -8047,7 +8048,7 @@
   },
   "ancestors": null,
   "name": "PodReadinessGate"
-}
+},
 {
   "fs_group": {
     "type": "typing.Union[int, float, NoneType]",
@@ -8091,7 +8092,7 @@
   },
   "ancestors": null,
   "name": "PodSecurityContext"
-}
+},
 {
   "containers": {
     "type": "typing.Sequence[typing.Union[cdk8s_plus_25.k8s.Container, typing.Dict[str, typing.Any]]]",
@@ -8243,7 +8244,7 @@
   },
   "ancestors": null,
   "name": "PodSpec"
-}
+},
 {
   "metadata": {
     "type": "typing.Union[cdk8s_plus_25.k8s.ObjectMeta, typing.Dict[str, typing.Any], NoneType]",
@@ -8255,7 +8256,7 @@
   },
   "ancestors": null,
   "name": "PodTemplateSpec"
-}
+},
 {
   "metric": {
     "type": "typing.Union[cdk8s_plus_25.k8s.MetricIdentifierV2, typing.Dict[str, typing.Any]]",
@@ -8267,7 +8268,7 @@
   },
   "ancestors": null,
   "name": "PodsMetricSourceV2"
-}
+},
 {
   "metric": {
     "type": "typing.Union[cdk8s_plus_25.k8s.MetricIdentifierV2Beta2, typing.Dict[str, typing.Any]]",
@@ -8279,7 +8280,7 @@
   },
   "ancestors": null,
   "name": "PodsMetricSourceV2Beta2"
-}
+},
 {
   "verbs": {
     "type": "typing.Sequence[str]",
@@ -8303,7 +8304,7 @@
   },
   "ancestors": null,
   "name": "PolicyRule"
-}
+},
 {
   "subjects": {
     "type": "typing.Sequence[typing.Union[ForwardRef('SubjectV1Beta1'), typing.Dict[str, typing.Any]]]",
@@ -8319,7 +8320,7 @@
   },
   "ancestors": null,
   "name": "PolicyRulesWithSubjectsV1Beta1"
-}
+},
 {
   "subjects": {
     "type": "typing.Sequence[typing.Union[ForwardRef('SubjectV1Beta2'), typing.Dict[str, typing.Any]]]",
@@ -8335,7 +8336,7 @@
   },
   "ancestors": null,
   "name": "PolicyRulesWithSubjectsV1Beta2"
-}
+},
 {
   "volume_id": {
     "type": "<class 'str'>",
@@ -8351,7 +8352,7 @@
   },
   "ancestors": null,
   "name": "PortworxVolumeSource"
-}
+},
 {
   "resource_version": {
     "type": "typing.Optional[str]",
@@ -8363,7 +8364,7 @@
   },
   "ancestors": null,
   "name": "Preconditions"
-}
+},
 {
   "preference": {
     "type": "typing.Union[cdk8s_plus_25.k8s.NodeSelectorTerm, typing.Dict[str, typing.Any]]",
@@ -8375,15 +8376,15 @@
   },
   "ancestors": null,
   "name": "PreferredSchedulingTerm"
-}
+},
 {
   "name": "PriorityLevelConfigurationReferenceV1Beta1",
   "ancestors": null
-}
+},
 {
   "name": "PriorityLevelConfigurationReferenceV1Beta2",
   "ancestors": null
-}
+},
 {
   "type": {
     "type": "<class 'str'>",
@@ -8395,7 +8396,7 @@
   },
   "ancestors": null,
   "name": "PriorityLevelConfigurationSpecV1Beta1"
-}
+},
 {
   "type": {
     "type": "<class 'str'>",
@@ -8407,7 +8408,7 @@
   },
   "ancestors": null,
   "name": "PriorityLevelConfigurationSpecV1Beta2"
-}
+},
 {
   "exec": {
     "type": "typing.Union[cdk8s_plus_25.k8s.ExecAction, typing.Dict[str, typing.Any], NoneType]",
@@ -8451,7 +8452,7 @@
   },
   "ancestors": null,
   "name": "Probe"
-}
+},
 {
   "default_mode": {
     "type": "typing.Union[int, float, NoneType]",
@@ -8463,7 +8464,7 @@
   },
   "ancestors": null,
   "name": "ProjectedVolumeSource"
-}
+},
 {
   "args": {
     "type": "No type annotation",
@@ -8475,7 +8476,7 @@
   },
   "ancestors": null,
   "name": "Quantity"
-}
+},
 {
   "hand_size": {
     "type": "typing.Union[int, float, NoneType]",
@@ -8491,7 +8492,7 @@
   },
   "ancestors": null,
   "name": "QueuingConfigurationV1Beta1"
-}
+},
 {
   "hand_size": {
     "type": "typing.Union[int, float, NoneType]",
@@ -8507,7 +8508,7 @@
   },
   "ancestors": null,
   "name": "QueuingConfigurationV1Beta2"
-}
+},
 {
   "registry": {
     "type": "<class 'str'>",
@@ -8535,7 +8536,7 @@
   },
   "ancestors": null,
   "name": "QuobyteVolumeSource"
-}
+},
 {
   "image": {
     "type": "<class 'str'>",
@@ -8571,7 +8572,7 @@
   },
   "ancestors": null,
   "name": "RbdPersistentVolumeSource"
-}
+},
 {
   "image": {
     "type": "<class 'str'>",
@@ -8607,7 +8608,7 @@
   },
   "ancestors": null,
   "name": "RbdVolumeSource"
-}
+},
 {
   "selector": {
     "type": "typing.Union[cdk8s_plus_25.k8s.LabelSelector, typing.Dict[str, typing.Any]]",
@@ -8627,7 +8628,7 @@
   },
   "ancestors": null,
   "name": "ReplicaSetSpec"
-}
+},
 {
   "min_ready_seconds": {
     "type": "typing.Union[int, float, NoneType]",
@@ -8647,7 +8648,7 @@
   },
   "ancestors": null,
   "name": "ReplicationControllerSpec"
-}
+},
 {
   "group": {
     "type": "typing.Optional[str]",
@@ -8675,7 +8676,7 @@
     "optional": true
   },
   "ancestors": null
-}
+},
 {
   "resource": {
     "type": "<class 'str'>",
@@ -8691,7 +8692,7 @@
   },
   "ancestors": null,
   "name": "ResourceFieldSelector"
-}
+},
 {
   "name": "ResourceMetricSourceV2",
   "target": {
@@ -8699,7 +8700,7 @@
     "optional": false
   },
   "ancestors": null
-}
+},
 {
   "name": "ResourceMetricSourceV2Beta2",
   "target": {
@@ -8707,7 +8708,7 @@
     "optional": false
   },
   "ancestors": null
-}
+},
 {
   "api_groups": {
     "type": "typing.Sequence[str]",
@@ -8731,7 +8732,7 @@
   },
   "ancestors": null,
   "name": "ResourcePolicyRuleV1Beta1"
-}
+},
 {
   "api_groups": {
     "type": "typing.Sequence[str]",
@@ -8755,7 +8756,7 @@
   },
   "ancestors": null,
   "name": "ResourcePolicyRuleV1Beta2"
-}
+},
 {
   "hard": {
     "type": "typing.Optional[typing.Mapping[str, cdk8s_plus_25.k8s.Quantity]]",
@@ -8771,7 +8772,7 @@
   },
   "ancestors": null,
   "name": "ResourceQuotaSpec"
-}
+},
 {
   "limits": {
     "type": "typing.Optional[typing.Mapping[str, cdk8s_plus_25.k8s.Quantity]]",
@@ -8783,7 +8784,7 @@
   },
   "ancestors": null,
   "name": "ResourceRequirements"
-}
+},
 {
   "api_group": {
     "type": "<class 'str'>",
@@ -8795,7 +8796,7 @@
   },
   "name": "RoleRef",
   "ancestors": null
-}
+},
 {
   "max_surge": {
     "type": "typing.Optional[cdk8s_plus_25.k8s.IntOrString]",
@@ -8807,7 +8808,7 @@
   },
   "ancestors": null,
   "name": "RollingUpdateDaemonSet"
-}
+},
 {
   "max_surge": {
     "type": "typing.Optional[cdk8s_plus_25.k8s.IntOrString]",
@@ -8819,7 +8820,7 @@
   },
   "ancestors": null,
   "name": "RollingUpdateDeployment"
-}
+},
 {
   "max_unavailable": {
     "type": "typing.Optional[cdk8s_plus_25.k8s.IntOrString]",
@@ -8831,7 +8832,7 @@
   },
   "ancestors": null,
   "name": "RollingUpdateStatefulSetStrategy"
-}
+},
 {
   "api_groups": {
     "type": "typing.Optional[typing.Sequence[str]]",
@@ -8855,7 +8856,7 @@
   },
   "ancestors": null,
   "name": "RuleWithOperations"
-}
+},
 {
   "gateway": {
     "type": "<class 'str'>",
@@ -8899,7 +8900,7 @@
   },
   "ancestors": null,
   "name": "ScaleIoPersistentVolumeSource"
-}
+},
 {
   "gateway": {
     "type": "<class 'str'>",
@@ -8943,7 +8944,7 @@
   },
   "ancestors": null,
   "name": "ScaleIoVolumeSource"
-}
+},
 {
   "replicas": {
     "type": "typing.Union[int, float, NoneType]",
@@ -8951,7 +8952,7 @@
   },
   "ancestors": null,
   "name": "ScaleSpec"
-}
+},
 {
   "node_selector": {
     "type": "typing.Optional[typing.Mapping[str, str]]",
@@ -8963,7 +8964,7 @@
   },
   "ancestors": null,
   "name": "Scheduling"
-}
+},
 {
   "match_expressions": {
     "type": "typing.Optional[typing.Sequence[typing.Union[ForwardRef('ScopedResourceSelectorRequirement'), typing.Dict[str, typing.Any]]]]",
@@ -8971,7 +8972,7 @@
   },
   "ancestors": null,
   "name": "ScopeSelector"
-}
+},
 {
   "operator": {
     "type": "<class 'str'>",
@@ -8987,7 +8988,7 @@
   },
   "ancestors": null,
   "name": "ScopedResourceSelectorRequirement"
-}
+},
 {
   "level": {
     "type": "typing.Optional[str]",
@@ -9007,7 +9008,7 @@
   },
   "ancestors": null,
   "name": "SeLinuxOptions"
-}
+},
 {
   "type": {
     "type": "<class 'str'>",
@@ -9019,7 +9020,7 @@
   },
   "ancestors": null,
   "name": "SeccompProfile"
-}
+},
 {
   "name": "SecretEnvSource",
   "optional": {
@@ -9027,7 +9028,7 @@
     "optional": true
   },
   "ancestors": null
-}
+},
 {
   "key": {
     "type": "<class 'str'>",
@@ -9039,7 +9040,7 @@
     "optional": true
   },
   "ancestors": null
-}
+},
 {
   "items": {
     "type": "typing.Optional[typing.Sequence[typing.Union[cdk8s_plus_25.k8s.KeyToPath, typing.Dict[str, typing.Any]]]]",
@@ -9051,7 +9052,7 @@
     "optional": true
   },
   "ancestors": null
-}
+},
 {
   "name": "SecretReference",
   "namespace": {
@@ -9059,7 +9060,7 @@
     "optional": true
   },
   "ancestors": null
-}
+},
 {
   "default_mode": {
     "type": "typing.Union[int, float, NoneType]",
@@ -9079,7 +9080,7 @@
   },
   "ancestors": null,
   "name": "SecretVolumeSource"
-}
+},
 {
   "allow_privilege_escalation": {
     "type": "typing.Optional[bool]",
@@ -9127,7 +9128,7 @@
   },
   "ancestors": null,
   "name": "SecurityContext"
-}
+},
 {
   "non_resource_attributes": {
     "type": "typing.Union[cdk8s_plus_25.k8s.NonResourceAttributes, typing.Dict[str, typing.Any], NoneType]",
@@ -9139,7 +9140,7 @@
   },
   "ancestors": null,
   "name": "SelfSubjectAccessReviewSpec"
-}
+},
 {
   "namespace": {
     "type": "typing.Optional[str]",
@@ -9147,7 +9148,7 @@
   },
   "ancestors": null,
   "name": "SelfSubjectRulesReviewSpec"
-}
+},
 {
   "name": "ServiceAccountSubjectV1Beta1",
   "namespace": {
@@ -9155,7 +9156,7 @@
     "optional": false
   },
   "ancestors": null
-}
+},
 {
   "name": "ServiceAccountSubjectV1Beta2",
   "namespace": {
@@ -9163,7 +9164,7 @@
     "optional": false
   },
   "ancestors": null
-}
+},
 {
   "path": {
     "type": "<class 'str'>",
@@ -9179,7 +9180,7 @@
   },
   "ancestors": null,
   "name": "ServiceAccountTokenProjection"
-}
+},
 {
   "name": "ServiceBackendPort",
   "number": {
@@ -9187,7 +9188,7 @@
     "optional": true
   },
   "ancestors": null
-}
+},
 {
   "port": {
     "type": "typing.Union[int, float]",
@@ -9211,7 +9212,7 @@
     "optional": true
   },
   "ancestors": null
-}
+},
 {
   "name": "ServiceReference",
   "namespace": {
@@ -9227,7 +9228,7 @@
     "optional": true
   },
   "ancestors": null
-}
+},
 {
   "allocate_load_balancer_node_ports": {
     "type": "typing.Optional[bool]",
@@ -9307,7 +9308,7 @@
   },
   "ancestors": null,
   "name": "ServiceSpec"
-}
+},
 {
   "client_ip": {
     "type": "typing.Union[cdk8s_plus_25.k8s.ClientIpConfig, typing.Dict[str, typing.Any], NoneType]",
@@ -9315,7 +9316,7 @@
   },
   "ancestors": null,
   "name": "SessionAffinityConfig"
-}
+},
 {
   "when_deleted": {
     "type": "typing.Optional[str]",
@@ -9327,7 +9328,7 @@
   },
   "ancestors": null,
   "name": "StatefulSetPersistentVolumeClaimRetentionPolicy"
-}
+},
 {
   "selector": {
     "type": "typing.Union[cdk8s_plus_25.k8s.LabelSelector, typing.Dict[str, typing.Any]]",
@@ -9371,7 +9372,7 @@
   },
   "ancestors": null,
   "name": "StatefulSetSpec"
-}
+},
 {
   "rolling_update": {
     "type": "typing.Union[cdk8s_plus_25.k8s.RollingUpdateStatefulSetStrategy, typing.Dict[str, typing.Any], NoneType]",
@@ -9383,7 +9384,7 @@
   },
   "ancestors": null,
   "name": "StatefulSetUpdateStrategy"
-}
+},
 {
   "field": {
     "type": "typing.Optional[str]",
@@ -9399,7 +9400,7 @@
   },
   "ancestors": null,
   "name": "StatusCause"
-}
+},
 {
   "causes": {
     "type": "typing.Optional[typing.Sequence[typing.Union[cdk8s_plus_25.k8s.StatusCause, typing.Dict[str, typing.Any]]]]",
@@ -9423,7 +9424,7 @@
     "optional": true
   },
   "ancestors": null
-}
+},
 {
   "fs_type": {
     "type": "typing.Optional[str]",
@@ -9447,7 +9448,7 @@
   },
   "ancestors": null,
   "name": "StorageOsPersistentVolumeSource"
-}
+},
 {
   "fs_type": {
     "type": "typing.Optional[str]",
@@ -9471,7 +9472,7 @@
   },
   "ancestors": null,
   "name": "StorageOsVolumeSource"
-}
+},
 {
   "kind": {
     "type": "<class 'str'>",
@@ -9487,7 +9488,7 @@
     "optional": true
   },
   "ancestors": null
-}
+},
 {
   "extra": {
     "type": "typing.Optional[typing.Mapping[str, typing.Sequence[str]]]",
@@ -9515,7 +9516,7 @@
   },
   "ancestors": null,
   "name": "SubjectAccessReviewSpec"
-}
+},
 {
   "kind": {
     "type": "<class 'str'>",
@@ -9535,7 +9536,7 @@
   },
   "ancestors": null,
   "name": "SubjectV1Beta1"
-}
+},
 {
   "kind": {
     "type": "<class 'str'>",
@@ -9555,7 +9556,7 @@
   },
   "ancestors": null,
   "name": "SubjectV1Beta2"
-}
+},
 {
   "name": "Sysctl",
   "value": {
@@ -9563,7 +9564,7 @@
     "optional": false
   },
   "ancestors": null
-}
+},
 {
   "effect": {
     "type": "<class 'str'>",
@@ -9583,7 +9584,7 @@
   },
   "ancestors": null,
   "name": "Taint"
-}
+},
 {
   "port": {
     "type": "<class 'cdk8s_plus_25.k8s.IntOrString'>",
@@ -9595,7 +9596,7 @@
   },
   "ancestors": null,
   "name": "TcpSocketAction"
-}
+},
 {
   "audience": {
     "type": "<class 'str'>",
@@ -9607,7 +9608,7 @@
   },
   "ancestors": null,
   "name": "TokenRequest"
-}
+},
 {
   "audiences": {
     "type": "typing.Sequence[str]",
@@ -9623,7 +9624,7 @@
   },
   "ancestors": null,
   "name": "TokenRequestSpec"
-}
+},
 {
   "audiences": {
     "type": "typing.Optional[typing.Sequence[str]]",
@@ -9635,7 +9636,7 @@
   },
   "ancestors": null,
   "name": "TokenReviewSpec"
-}
+},
 {
   "effect": {
     "type": "typing.Optional[str]",
@@ -9659,7 +9660,7 @@
   },
   "ancestors": null,
   "name": "Toleration"
-}
+},
 {
   "key": {
     "type": "<class 'str'>",
@@ -9671,7 +9672,7 @@
   },
   "ancestors": null,
   "name": "TopologySelectorLabelRequirement"
-}
+},
 {
   "match_label_expressions": {
     "type": "typing.Optional[typing.Sequence[typing.Union[cdk8s_plus_25.k8s.TopologySelectorLabelRequirement, typing.Dict[str, typing.Any]]]]",
@@ -9679,7 +9680,7 @@
   },
   "ancestors": null,
   "name": "TopologySelectorTerm"
-}
+},
 {
   "max_skew": {
     "type": "typing.Union[int, float]",
@@ -9715,7 +9716,7 @@
   },
   "ancestors": null,
   "name": "TopologySpreadConstraint"
-}
+},
 {
   "kind": {
     "type": "<class 'str'>",
@@ -9727,15 +9728,15 @@
     "optional": true
   },
   "ancestors": null
-}
+},
 {
   "name": "UserSubjectV1Beta1",
   "ancestors": null
-}
+},
 {
   "name": "UserSubjectV1Beta2",
   "ancestors": null
-}
+},
 {
   "admission_review_versions": {
     "type": "typing.Sequence[str]",
@@ -9775,7 +9776,7 @@
     "optional": true
   },
   "ancestors": null
-}
+},
 {
   "rule": {
     "type": "<class 'str'>",
@@ -9787,7 +9788,7 @@
   },
   "ancestors": null,
   "name": "ValidationRule"
-}
+},
 {
   "name": "Volume",
   "aws_elastic_block_store": {
@@ -9907,7 +9908,7 @@
     "optional": true
   },
   "ancestors": null
-}
+},
 {
   "inline_volume_spec": {
     "type": "typing.Union[cdk8s_plus_25.k8s.PersistentVolumeSpec, typing.Dict[str, typing.Any], NoneType]",
@@ -9919,7 +9920,7 @@
   },
   "ancestors": null,
   "name": "VolumeAttachmentSource"
-}
+},
 {
   "attacher": {
     "type": "<class 'str'>",
@@ -9935,7 +9936,7 @@
   },
   "ancestors": null,
   "name": "VolumeAttachmentSpec"
-}
+},
 {
   "device_path": {
     "type": "<class 'str'>",
@@ -9943,7 +9944,7 @@
   },
   "name": "VolumeDevice",
   "ancestors": null
-}
+},
 {
   "mount_path": {
     "type": "<class 'str'>",
@@ -9967,7 +9968,7 @@
     "optional": true
   },
   "ancestors": null
-}
+},
 {
   "required": {
     "type": "typing.Union[cdk8s_plus_25.k8s.NodeSelector, typing.Dict[str, typing.Any], NoneType]",
@@ -9975,7 +9976,7 @@
   },
   "ancestors": null,
   "name": "VolumeNodeAffinity"
-}
+},
 {
   "count": {
     "type": "typing.Union[int, float, NoneType]",
@@ -9983,7 +9984,7 @@
   },
   "ancestors": null,
   "name": "VolumeNodeResources"
-}
+},
 {
   "config_map": {
     "type": "typing.Union[cdk8s_plus_25.k8s.ConfigMapProjection, typing.Dict[str, typing.Any], NoneType]",
@@ -10003,7 +10004,7 @@
   },
   "ancestors": null,
   "name": "VolumeProjection"
-}
+},
 {
   "volume_path": {
     "type": "<class 'str'>",
@@ -10023,7 +10024,7 @@
   },
   "ancestors": null,
   "name": "VsphereVirtualDiskVolumeSource"
-}
+},
 {
   "ca_bundle": {
     "type": "typing.Optional[str]",
@@ -10039,7 +10040,7 @@
   },
   "ancestors": null,
   "name": "WebhookClientConfig"
-}
+},
 {
   "conversion_review_versions": {
     "type": "typing.Sequence[str]",
@@ -10051,7 +10052,7 @@
   },
   "ancestors": null,
   "name": "WebhookConversion"
-}
+},
 {
   "pod_affinity_term": {
     "type": "typing.Union[cdk8s_plus_25.k8s.PodAffinityTerm, typing.Dict[str, typing.Any]]",
@@ -10063,7 +10064,7 @@
   },
   "ancestors": null,
   "name": "WeightedPodAffinityTerm"
-}
+},
 {
   "gmsa_credential_spec": {
     "type": "typing.Optional[str]",
@@ -10083,4 +10084,5 @@
   },
   "ancestors": null,
   "name": "WindowsSecurityContextOptions"
-}
+},
+]
